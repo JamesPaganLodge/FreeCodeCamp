@@ -90,6 +90,38 @@
           opacity: 0.1;
         }
       }
+
+      #ball-bounce {
+        width: 100px;
+        height: 100px;
+        margin: 50px auto;
+        position: relative;
+        border-radius: 50%;
+        background: linear-gradient(
+          35deg,
+          #CCFFFF,
+          #FFCCCC
+        );
+        animation-name: bounce;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes bounce {
+        0% {
+          top: 0px;
+        }
+
+        50% {
+          top: 249px;
+          width: 130px;
+          height: 70px;
+        }
+
+        100% {
+          top: 0px;
+        }
+      }
     </style>
   </head>
   <body>
@@ -97,6 +129,7 @@
       <div class="anim" id="rect"></div>
       <button>Register</button>
       <div id="ball"></div>
+      <div id="ball-bounce"></div>
     </div>
   </body>
 </html>
