@@ -5,12 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>Page Title</title>
+    <title>Adjusting Colours</title>
 
     <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
     <!-- <script src="main.js"></script> -->
 
     <style>
+      :root {
+        --main-colour: #09A7A1;
+        --second-colour: #FF790E;
+      }
+
       body {
         background-color: white;
       }
@@ -21,21 +26,21 @@
       }
 
       header {
-        background-color: black;
+        background-color: var(--main-colour);
         color: white;
         padding: 0.25em;
       }
 
       h2 {
-        color: black;
+        color: var(--main-colour);
       }
 
       button {
-        background-color: white;
+        background-color: var(--second-colour);
       }
 
       footer {
-        background-color: black;
+        background-color: var(--main-colour);
         color: white;
         padding: 0.5em;
       }
