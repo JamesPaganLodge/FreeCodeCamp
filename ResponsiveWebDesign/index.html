@@ -10,10 +10,6 @@
         <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 
         <style>
-            #cat-photo-form {
-                background-color: green;
-            }
-
             .red-text {
                 color: red;
             }
@@ -40,6 +36,10 @@
 
             h2 {
                 font-family: Lobster, monospace;
+            }
+
+            [type="checkbox"] {
+                margin: 10px 0px 15px 0px;
             }
         </style>
     </head>
@@ -68,20 +68,20 @@
 
             <form action="/submit-cat-photo" id="cat-photo-form">
                 <label for="indoor">
-                    <input id="indoor" type="radio" name="indoor-outdoor" checked>Indoor
+                    <input id="indoor" type="radio" name="indoor-outdoor" checked> Indoor
                 </label>
                 <label for="outdoor">
-                    <input id="outdoor" type="radio" name="indoor-outdoor">Outdoor
+                    <input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor
                 </label>
                 <br>
                 <label for="loving">
-                    <input id="loving" type="checkbox" name="personality" checked>Loving
+                    <input id="loving" type="checkbox" name="personality" checked> Loving
                 </label>
                 <label for="licky">
-                    <input id="licky" type="checkbox" name="personality">Licky
+                    <input id="licky" type="checkbox" name="personality"> Licky
                 </label>
                 <label for="picnic">
-                    <input id="picnic" type="checkbox" name="personality">3 sanwiches short of a full picnic
+                    <input id="picnic" type="checkbox" name="personality"> 3 sanwiches short of a full picnic
                 </label>
                 <br>
                 <input type="text" placeholder="cat photo URL" required>
