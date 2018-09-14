@@ -19,7 +19,7 @@
       .ball {
         width: 40px;
         height: 40px;
-        margin: 50 auto;
+        margin: 50px auto;
         position: fixed;
         background: linear-gradient(
           35deg,
@@ -37,12 +37,29 @@
         left: 65%;
         transform:scale(1.5);
       }
+
+      #div-to-transform {
+        width: 70%;
+        height: 100px;
+        margin: 50px auto;
+        background: linear-gradient(
+          53deg,
+          #CCFFFF,
+          #FFCCCC
+        );
+      }
+
+      div:hover {
+        transform: scale(1.1);
+      }
     </style>
   </head>
   <body>
     <div id="content">
       <div class="ball" id="ball1"></div>
       <div class="ball" id="ball2"></div>
+
+      <div id="div-to-transform"></div>
     </div>
   </body>
 </html>
