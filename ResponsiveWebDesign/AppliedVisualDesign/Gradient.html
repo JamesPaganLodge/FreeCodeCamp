@@ -16,18 +16,32 @@
         margin: auto;
       }
 
-      #gradient {
+      div {
         border-radius: 20px;
         width: 70%;
-        height: 500px;
+        height: 300px;
         margin: 50px auto;
+      }
+
+      #gradient {
         background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+      }
+
+      #repeating-gradient {
+        background: repeating-linear-gradient(
+          90deg,
+          yellow 0px,
+          blue 40px,
+          green 40px,
+          red 80px
+        );
       }
     </style>
   </head>
   <body>
     <div id="content">
       <div id="gradient"></div>
+      <div id="repeating-gradient"></div>
     </div>
   </body>
 </html>
