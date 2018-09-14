@@ -48,9 +48,26 @@
           #FFCCCC
         );
       }
-
+      
+      /*
       div:hover {
         transform: scale(1.1);
+      }
+      */
+
+      .skew {
+        width: 70%;
+        height: 100px;
+        margin: 50px auto;
+      }
+
+      #skew-top {
+        background-color: red;
+      }
+
+      #skew-bottom {
+        background-color: blue;
+        transform: skewX(24deg);
       }
     </style>
   </head>
@@ -60,6 +77,11 @@
       <div class="ball" id="ball2"></div>
 
       <div id="div-to-transform"></div>
+
+      <div id="skew">
+        <div class="skew" id="skew-top"></div>
+        <div class="skew" id="skew-bottom"></div>
+      </div>
     </div>
   </body>
 </html>
