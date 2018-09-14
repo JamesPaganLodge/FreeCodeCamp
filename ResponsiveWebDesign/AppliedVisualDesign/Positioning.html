@@ -19,9 +19,26 @@
         top: 50px;
         right: 50px;
       }
-
+      
+      /* Searchbar section */
       section {
         position: relative;
+      }      
+
+      /* Float section */
+      aside, section {
+        padding: 2px;
+        background-color: #ccc;
+      }
+
+      #left {
+        float: left;
+        width: 50%;
+      }
+
+      #right {
+        float: right;
+        width: 40%;
       }
 
       #navbar {
@@ -53,7 +70,7 @@
     <p>I still think the h2 is where it normally sits</p>
     <hr />
     <header>
-      <h1>Welcome!</h1>
+      <h1>Position:Fixed - Welcome!</h1>
       <nav id="navbar">
         <ul>
           <li><a href="#">Home</a></li>
@@ -69,5 +86,17 @@
         <input type="submit" name="submit" value="Go!">
       </form>
     </section>
+    <hr />
+    <header>
+      <h1>Float - Welcome!</h1>
+    </header>
+    <section id="left">
+      <h2>Content</h2>
+      <p>Good stuff</p>
+    </section>
+    <aside id="right">
+      <h2>Sidebar</h2>
+      <p>Links</p>
+    </aside>
   </body>
 </html>
