@@ -11,5 +11,5 @@ This includes the following sections
   * Applied Accessibility
   * Responsive Web Design Principles 
   * CSS Flexbox
-  * (TODO) CSS Grid
+  * CSS Grid
   * (TODO) Projects
