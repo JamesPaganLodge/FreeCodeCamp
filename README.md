@@ -4,7 +4,7 @@ Free Code Camp course material.
 
 ## Responsive Web Design
 
-This inclueds the following sections
+This includes the following sections
   * Basic HTML
   * Basic CSS
   * Applied Visual Design
