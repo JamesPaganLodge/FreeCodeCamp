@@ -33,6 +33,15 @@
   border-radius: 2px;
 }
 
+.dropdown {
+  height: 30px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 4px;
+}
+
 #submit {
   border-radius: 4px;
   background-color: #59ace0;
