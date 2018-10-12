@@ -15,10 +15,7 @@
       .item2 {background:LightSalmon;}
       .item3 {background:PaleTurquoise;}
       .item4 {background:LightPink;}
-      .item5 {
-        background:PaleGreen;
-        grid-area: 3/1/4/4;
-      }
+      .item5 {background:PaleGreen;}
       
       .container {
         font-size: 40px;
@@ -26,7 +23,7 @@
         width: 100%;
         background: LightGray;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1fr 1fr 1fr;
         grid-gap: 10px;
       } 
