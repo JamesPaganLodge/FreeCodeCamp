@@ -9,7 +9,7 @@ This includes the following sections
   * Basic CSS
   * Applied Visual Design
   * Applied Accessibility
-  * (TODO) Responsive Web Design Principles 
+  * Responsive Web Design Principles 
   * (TODO) CSS Flexbox
   * (TODO) CSS Grid
   * (TODO) Projects
