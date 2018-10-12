@@ -10,6 +10,6 @@ This includes the following sections
   * Applied Visual Design
   * Applied Accessibility
   * Responsive Web Design Principles 
-  * (TODO) CSS Flexbox
+  * CSS Flexbox
   * (TODO) CSS Grid
   * (TODO) Projects
