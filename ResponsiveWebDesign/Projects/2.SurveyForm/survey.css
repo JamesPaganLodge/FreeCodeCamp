@@ -42,6 +42,23 @@
   border-radius: 4px;
 }
 
+ul {
+  list-style: none;
+}
+
+.radio, .checkbox {
+  position: relative;
+  left: -43px;
+  margin-left: 10px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+.ug {
+  float: left;
+  margin-right: 5px;
+}
+
 #submit {
   border-radius: 4px;
   background-color: #59ace0;
