@@ -15,7 +15,10 @@
       .d2{background:LightSalmon;}
       .d3{background:PaleTurquoise;}
       .d4{background:LightPink;}
-      .d5{background:PaleGreen;}
+      .d5 {
+        background:PaleGreen;
+        grid-column: 2 / 4;
+      }
       
       .container {
         font-size: 40px;
@@ -25,7 +28,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        grid-gap: 10px 20px;
+        grid-gap: 10px;
       } 
     </style>
   </head>
