@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Survey Form</title>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="survey.css" />
+    <!-- <script src="main.js"></script> -->
+
+    <style>
+    </style>
+  </head>
+  <body>
+    <div id="content">
+      <h1 id="title">Front End Project Survey</h1>
+      <div id="survey">
+        <p id="description">You like doing surveys right?</p>
+        
+        <form id="survey-form">
+          <div class="survey-row">
+            <div class="labels">
+              <label for="name">* Name:</label>
+            </div>
+            <div class="inputs">
+              <input type="text" id="name" name="name" class="input-field" placeholder="Enter your name" required />
+            </div>
+          </div>
+
+          <div class="survey-row">
+            <div class="labels">
+              <label for="email">* Email:</label>
+            </div>
+            <div class="inputs">
+              <input type="text" id="email" name="email" class="input-field" placeholder="Enter your email" required />
+            </div>
+          </div>
+
+          <input type="submit" id="submit" name="submit" value="submit" />
+        </form>
+      </div>
+    </div>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
