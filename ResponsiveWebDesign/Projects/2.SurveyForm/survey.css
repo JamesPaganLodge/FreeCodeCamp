@@ -54,7 +54,7 @@ ul {
   padding-bottom: 10px;
 }
 
-.ug {
+.ug, input[type="checkbox"] {
   float: left;
   margin-right: 5px;
 }
