@@ -12,5 +12,5 @@ This includes the following sections
   * [x] Responsive Web Design Principles 
   * [x] CSS Flexbox
   * [x] CSS Grid
-  * [] Projects
+  * [ ] Projects
     * [x] [Tribute Page](https://jamespaganlodge.github.io/FreeCodeCamp/docs/FrontEndProjects/Tribute/index.html "Tribute Page")
