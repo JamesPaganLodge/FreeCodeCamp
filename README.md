@@ -13,4 +13,4 @@ This includes the following sections
   * CSS Flexbox
   * CSS Grid
   * (TODO) Projects
-    * Tribute Page (https://jamespaganlodge.github.io/FreeCodeCamp/docs/FrontEndProjects/Tribute/index.html)
+    * [Tribute Page](https://jamespaganlodge.github.io/FreeCodeCamp/docs/FrontEndProjects/Tribute/index.html "Tribute Page")
