@@ -40,7 +40,7 @@ header li {
   padding: 20px;
 }
 
-li:hover {
+header li:hover {
   background-color: #c7c7c7;
   border-radius: 5px;
 }
@@ -187,4 +187,34 @@ header a {
   margin: 10px;
   border: 0;
   background-color: #8f56be;
+}
+
+footer {
+  padding: 20px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul li {
+  padding: 0 10px;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer a {
+  color: #000000;
+  text-decoration: none;
+}
+
+footer span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.8em;
+  color: #444444
 }
