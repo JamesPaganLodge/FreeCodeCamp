@@ -61,6 +61,13 @@ header a {
   margin: 0 auto;
 }
 
+.title-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .form-container {
   height: 200px;
   margin-top: 100px;
@@ -129,9 +136,14 @@ header a {
 }
 
 #pricing {
+  margin-top: 75px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+#pricing .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 #pricing #short, #pricing #medium, #pricing #long {
@@ -145,6 +157,34 @@ header a {
   border-radius: 5px;
 }
 
-#pricing .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+#pricing #short .duration, #pricing #medium .duration, #pricing #long .duration {
+  background: 1px solid #000000;
+  color: #000000;
+  padding: 15px 0;
+  width: 100%;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#pricing #short p, #pricing #medium p, #pricing #long p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+}
+
+#pricing #short li, #pricing #medium li, #pricing #long li {
+  list-style: none;
+  padding: 5px;
+}
+
+#pricing #short button, #pricing #medium button, #pricing #long button {
+  font-weight: 800;
+  max-width: 200px;
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  margin: 10px;
+  border: 0;
+  background-color: #8f56be;
 }
