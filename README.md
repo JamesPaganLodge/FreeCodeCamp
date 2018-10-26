@@ -14,7 +14,7 @@ This includes the following sections
   * [x] CSS Grid
   * [ ] Projects
     * [x] [Tribute Page](https://jamespaganlodge.github.io/FreeCodeCamp/docs/FrontEndProjects/Tribute/index.html "Tribute Page")
-    * [ ] [Survey Page](https://jamespaganlodge.github.io/FreeCodeCamp/docs/FrontEndProjects/Survey/index.html "Survey Page")
-    * [ ] [Product Landing Page](https://jamespaganlodge.github.io/FreeCodeCamp/ "Product Landing Page")
+    * [x] [Survey Page](https://jamespaganlodge.github.io/FreeCodeCamp/docs/FrontEndProjects/Survey/index.html "Survey Page")
+    * [x] [Product Landing Page](https://jamespaganlodge.github.io/FreeCodeCamp/docs/FrontEndProjects/ProductLanding/index.html "Product Landing Page")
     * [ ] [Technical Documentation Page](https://jamespaganlodge.github.io/FreeCodeCamp/ "Technical Documentation Page")
     * [ ] [Personal Portfolio](https://jamespaganlodge.github.io/FreeCodeCamp/ "Personal Portfolio")
