@@ -8,6 +8,9 @@
     <title>Product Landing Page</title>
 
     <link rel="stylesheet" type="text/css" media="screen" href="product.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" 
+      integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" 
+      crossorigin="anonymous">
   </head>
   <body>    
     <div id="page-wrapper">
@@ -35,9 +38,9 @@
         <main>
           <section id="email-form">
             <div class="form-container">
-              <form id="form" action="https://www.freecodecamp.com/email-submit">
-                <h2>Sign up for email updates</h2>
-                <p>Enter your email to keep up with the latest candle technology</p>
+              <h2>Sign up for email updates</h2>
+              <p>Enter your email to keep up with the latest candle technology</p>
+              <form id="form" action="https://www.freecodecamp.com/email-submit">                
                 <input id="email" name="email" type="email" placeholder="Enter your email" required />
                 <input type="submit" id="submit" value="Get Updates" />
               </form>
@@ -45,19 +48,24 @@
           </section>
 
           <section id="features">
-            <div class="desc">
-              <h2>Latest Technology</h2>
-              <p>We use the latest in tallow production to give you the longest lasting candle.</p>
-            </div>
+            <div class="grid">
+              <div class="icon">
+                <i class="fas fa-fire"></i>
+              </div>
+              <div class="desc">
+                <h2>Latest Technology</h2>
+                <p>We use the latest in tallow production to give you the longest lasting candle.</p>
+              </div>
 
-            <div class="desc">
-              <h2>Shipping</h2>
-              <p>We will ship anywhere in the county within 1-2 weeks.</p>
-            </div>
+              <div class="desc">
+                <h2>Shipping</h2>
+                <p>We will ship anywhere in the county within 1-2 weeks.</p>
+              </div>
 
-            <div class="desc">
-              <h2>Quality</h2>
-              <p>All our candle batches are rigoursly tested in the harshest of underground environments.</p>
+              <div class="desc">
+                <h2>Quality</h2>
+                <p>All our candle batches are rigoursly tested in the harshest of underground environments.</p>
+              </div>
             </div>
           </section>
 
