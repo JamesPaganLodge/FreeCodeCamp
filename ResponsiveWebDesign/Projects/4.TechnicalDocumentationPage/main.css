@@ -1,4 +1,33 @@
-#content {
-  width: 1000px;
-  margin: auto;
-} 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+  position: fixed;
+  width: 300px;
+  height: 100%;
+  border-right: 2px solid #666666;
+}
+
+#navbar header {
+  font-size: 1.8em;
+  margin: 10px;
+  text-align: center;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 8px;
+  position: relative;
+}
+
+#navbar a {
+  color: #666666;
+  text-decoration: none;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+}
