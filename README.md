@@ -16,5 +16,5 @@ This includes the following sections
     * [x] [Tribute Page](https://jamespaganlodge.github.io/FreeCodeCamp/docs/FrontEndProjects/Tribute/index.html "Tribute Page")
     * [x] [Survey Page](https://jamespaganlodge.github.io/FreeCodeCamp/docs/FrontEndProjects/Survey/index.html "Survey Page")
     * [x] [Product Landing Page](https://jamespaganlodge.github.io/FreeCodeCamp/docs/FrontEndProjects/ProductLanding/index.html "Product Landing Page")
-    * [ ] [Technical Documentation Page](https://jamespaganlodge.github.io/FreeCodeCamp/ "Technical Documentation Page")
+    * [x] [Technical Documentation Page](https://jamespaganlodge.github.io/FreeCodeCamp/docs/FrontEndProjects/TechnicalDocumentation/index.html "Technical Documentation Page")
     * [ ] [Personal Portfolio](https://jamespaganlodge.github.io/FreeCodeCamp/ "Personal Portfolio")
