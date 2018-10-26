@@ -23,7 +23,8 @@
         <article>
           <p>Openedge ABL is known as a 4GL language which has supposedly built upon the functionality of 3GL languages. The purpose of the 
             4GL languages was to open up the power of programming to non-developers to enable them to write reports and update databases. Openedge 
-            both a database query language and a programming language.</p>
+            both a database query language and a programming language. Originally Openedge ABL could only be written procedurally, but for the last
+            couple of version object-orientation has been introduced, although not adopted everywhere due to large legacy code bases.</p>
           <p>Other 4GL languages:</p>
           <ul>
             <li>PowerBuilder</li>
@@ -45,12 +46,55 @@
         </article>
       </section>
 
-      <section class="main-section" id="">
-        <h3></h3>
+      <section class="main-section" id="basic-variable-types">
+        <h3>Basic Variable Types</h3>
+        <article>
+          <p>Variables can be declared as the following basic types:</p>
+          <ul>
+            <li>character - a character string</li>
+            <li>integer - a number</li>
+            <li>logical - a boolean, can be true, false and ? (kind of like null, but called the unknown value)</li>
+          </ul>
+          <p>The syntax to declare a variable is as follows:</p>
+          <code>define variable iNumber as integer no-undo.</code>
+          <p>Openedge ABL uses the . (dot/fullstop) to complete statements unlike javascript and C# that use a ; (semi-colon).</p>
+        </article>
       </section>
 
-      <section class="main-section" id="">
-        <h3></h3>
+      <section class="main-section" id="procedures-and-functions">
+        <h3>Procedures and Functions</h3>
+        <article>
+          <p>Procedural Openedge files end in a '.p' file extension and can include user defined procedures and functions. Or it
+            doesn't need to and the whole file can be one procedure that is executed from top to bottom.</p>
+          <h4>Procedures</h4>
+          <code>
+            procedure "procedure-name":
+              define input parameter cInput1 as character no-undo.
+              define output parameter lOutput as logical no-undo.
+
+            end procedure.
+          </code>
+          <p>The above sytanx is used to declare a new procedure in a '.p' file. These can be declared anywhere and referenced from the same
+            file using <code>run procedure-name.</code>.
+          </p>
+
+          <h4>Functions</h4>
+          <code>
+            function fDoSomething returns logical () forward.
+
+            // other code in file
+
+            function fDoSomething returns logical():
+              // do some processing
+
+              return true.
+            end function.
+          </code>
+          <p>Functions need to be declared before they can be used, hence the forward declaraction and the function implementation. For ease of code
+            organisation the forward declaraction can be put at the top of the file and the function implementation can be put anywhere else in the
+            file. Functions can be called during variable assignment <code>assign lResponse = fDoSomething().</code>.
+          </p>
+        </article>
       </section>
 
       <section class="main-section" id="">
