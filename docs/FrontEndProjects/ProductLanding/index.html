@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Product Landing Page</title>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="product.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" 
+      integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" 
+      crossorigin="anonymous">
+  </head>
+  <body>    
+    <div id="page-wrapper">
+      <header id="header">
+        <div class="logo">
+          <img id="header-img" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" alt="torches logo" />
+        </div>
+
+        <nav id="nav-bar">
+          <ul>
+            <li>
+              <a href="#features" class="nav-link" id="" role="button">Features</a>
+            </li>
+            <li>
+              <a href="#how-it-works" class="nav-link" id="" role="button">How it works</a>
+            </li>
+            <li>
+              <a href="#pricing" class="nav-link" id="" role="button">Pricing</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="page-container">
+        <main>
+          <section id="email-form">
+            <div class="form-container">
+              <h2>Sign up for email updates</h2>
+              <p>Enter your email to keep up with the latest candle technology</p>
+              <form id="form" action="https://www.freecodecamp.com/email-submit">                
+                <input id="email" name="email" type="email" placeholder="Enter your email" required />
+                <input type="submit" id="submit" value="GET UPDATES" />
+              </form>
+            </div>
+          </section>
+
+          <section id="features">
+            <h2 class="title-center">Features</h2>
+            <div class="grid">
+              <div class="icon">
+                <i class="fas fa-fire"></i>
+              </div>
+              <div class="desc">
+                <h3>Latest Technology</h3>
+                <p>We use the latest in tallow production to give you the longest lasting candle.</p>
+              </div>
+            </div>
+
+            <div class="grid">
+              <div class="icon">
+                <i class="fas fa-ship"></i>
+              </div>
+              <div class="desc">
+                <h3>Shipping</h3>
+                <p>We will ship anywhere in the county within 1-2 weeks.</p>
+              </div>
+            </div>
+
+            <div class="grid">
+              <div class="icon">
+                <i class="fas fa-atom"></i>
+              </div>
+              <div class="desc">
+                <h3>Quality</h3>
+                <p>All our candle batches are rigoursly tested in the harshest of underground environments.</p>
+              </div>
+            </div>
+          </section>
+
+          <section id="how-it-works">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/56d17Y6qliM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </section>
+
+          <section id="pricing">
+            <div id="short">
+              <div class="card">
+                <div class="duration">
+                  <h3>Short Duration</h3>
+                </div>
+                <p>£1</p>
+                <ul>
+                  <li>Item one</li>
+                  <li>Item two</li>
+                  <li>Item three</li>
+                </ul>
+                <button class="btn">Select</button>
+              </div>              
+            </div>
+            <div id="medium">
+              <div class="card">
+                <div class="duration">
+                  <h3>Medium Duration</h3>
+                </div>
+                <p>£3</p>
+                <ul>
+                  <li>Item one</li>
+                  <li>Item two</li>
+                  <li>Item three</li>
+                </ul>
+                <button class="btn">Select</button>
+              </div>
+            </div>
+            <div id="long">
+              <div class="card">
+                <div class="duration">
+                  <h3>Long Duration</h3>
+                </div>
+                <p>£10</p>
+                <ul>
+                  <li>Item one</li>
+                  <li>Item two</li>
+                  <li>Item three</li>
+                </ul>
+                <button class="btn">Select</button>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+
+      <footer>
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <span>Copyright 1818, Candles-for-all</span>
+      </footer>
+    </div>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
