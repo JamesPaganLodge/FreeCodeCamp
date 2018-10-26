@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Survey Form</title>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="survey.css" />
+    <!-- <script src="main.js"></script> -->
+
+    <style>
+    </style>
+  </head>
+  <body>
+    <div id="content">
+      <h1 id="title">Front End Project Survey</h1>
+      <div id="survey">
+        <p id="description">You like doing surveys about caves, right?</p>
+        
+        <form id="survey-form">
+          <div class="survey-row">
+            <div class="labels">
+              <label id="name-label" for="name">* Name:</label>
+            </div>
+            <div class="inputs">
+              <input type="text" id="name" name="name" class="input-field" placeholder="Enter your name" required />
+            </div>
+          </div>
+
+          <div class="survey-row">
+            <div class="labels">
+              <label id="email-label" for="email">* Email:</label>
+            </div>
+            <div class="inputs">
+              <input type="email" id="email" name="email" class="input-field" placeholder="Enter your email" required />
+            </div>
+          </div>
+
+          <div class="survey-row">
+            <div class="labels">
+              <label id="number-label" for="age">* Age:</label>
+            </div>
+            <div class="inputs">
+              <input type="number" id="number" name="age" class="input-field" min="1" max="125" placeholder="Enter your age" required />
+            </div>
+          </div>
+
+          <div class="survey-row">
+            <div class="labels">
+              <label for="cave">Favourite Cave:</label>
+            </div>
+            <div class="inputs">
+              <select id="dropdown" name="cave" class="dropdown">
+                <option>Otter Hole</option>
+                <option>Wet Sink</option>
+                <option>Clinker Bottom</option>
+                <option>C Caves</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="survey-row">
+            <div class="labels">
+              <label for="underground">Favourite underground environment:</label>
+            </div>
+            <div class="inputs">
+              <ul id="underground">
+                <li class="radio">
+                  <label>Caves<input type="radio" name="radio-buttons" class="ug" value="1" /></label>
+                </li>
+                <li class="radio">
+                  <label>Iron Mines<input type="radio" name="radio-buttons" class="ug" value="2" /></label>
+                </li>
+                <li class="radio">
+                  <label>Coal Mines<input type="radio" name="radio-buttons" class="ug" value="3" /></label>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="survey-row">
+            <div class="labels">
+              <label for="speleotherms">Favourite pretty bit:</label>
+            </div>
+            <div class="inputs">
+              <ul id="speleotherms">
+                <li class="checkbox">
+                  <label><input name="speleo" value="1" type="checkbox" class="ug" />Straws</label>
+                </li>
+                <li class="checkbox">
+                  <label><input name="speleo" value="2" type="checkbox" class="ug" />Stalactites</label>
+                </li>
+                <li class="checkbox">
+                  <label><input name="speleo" value="3" type="checkbox" class="ug" />Stalagmites</label>
+                </li>
+                <li class="checkbox">
+                  <label><input name="speleo" value="4" type="checkbox" class="ug" />Curtains</label>
+                </li>
+                <li class="checkbox">
+                  <label><input name="speleo" value="5" type="checkbox" class="ug" />Flowstone</label>
+                </li>
+                <li class="checkbox">
+                  <label><input name="speleo" value="6" type="checkbox" class="ug" />Crystal Pools</label>
+                </li>
+                <li class="checkbox">
+                  <label><input name="speleo" value="7" type="checkbox" class="ug" />Pom Poms</label>
+                </li>
+                <li class="checkbox">
+                  <label><input name="speleo" value="8" type="checkbox" class="ug" />Stal Bosses</label>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="survey-row">
+            <div class="labels">
+              <label for="cave-comments">Any other comments about caving?</label>
+            </div>
+            <div class="inputs">
+              <textarea id="cave-comments" rows="10" cols="50"></textarea>
+            </div>
+          </div>
+
+          <input type="submit" id="submit" name="submit" value="submit" />
+        </form>
+      </div>
+    </div>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>

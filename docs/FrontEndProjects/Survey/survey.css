@@ -1,0 +1,72 @@
+#content {
+  width: 1000px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}    
+
+#title, #description {
+  text-align: center;
+}
+
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.inputs {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+}
+
+.input-field {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+.dropdown {
+  height: 30px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 4px;
+}
+
+ul {
+  list-style: none;
+}
+
+.radio, .checkbox {
+  position: relative;
+  left: -43px;
+  margin-left: 10px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+.ug, input[type="checkbox"] {
+  float: left;
+  margin-right: 5px;
+}
+
+#submit {
+  border-radius: 4px;
+  background-color: #59ace0;
+  color: white;
+  font-size: 1em;
+  height: 40px;
+  width: 96px;
+  margin: 10px;
+  border: 0px solid;
+  float: right;
+}
