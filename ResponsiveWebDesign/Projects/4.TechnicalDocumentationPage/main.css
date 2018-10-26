@@ -32,6 +32,11 @@ body {
   padding: 20px;
 }
 
+section header {
+  font-weight: 700;
+  font-size: 1.6em;
+}
+
 section article {
   color: #666666;
   padding: 5px;
@@ -39,6 +44,7 @@ section article {
 }
 
 code {
+  color: #000000;
   display: block;
   text-align: left;
   white-space: pre;
@@ -47,7 +53,7 @@ code {
   word-wrap: normal;
   line-height: 2;
   background-color: #f7f7f7;
-  padding: 20px;
-  margin: 10px;
+  padding: 10px;
+  margin: 5px;
   border-radius: 5px;
 }
