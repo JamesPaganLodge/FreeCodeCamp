@@ -28,14 +28,14 @@ img {
   margin-left: 50px;
 }
 
-ul {
+header ul {
   width: 30vw;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-li {
+header li {
   list-style: none;
   padding: 20px;
 }
@@ -45,7 +45,7 @@ li:hover {
   border-radius: 5px;
 }
 
-a {
+header a {
   color: #000000;
   text-decoration: none;
 }
@@ -55,6 +55,12 @@ a {
 }
 
 /* Main page */
+.page-container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .form-container {
   height: 200px;
   margin-top: 100px;
@@ -111,8 +117,34 @@ a {
   padding: 5px;
 }
 
-.page-container {
-  max-width: 1000px;
+#how-it-works {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#how-it-works iframe {
+  max-width: 560px;
   width: 100%;
-  margin: 0 auto;
+}
+
+#pricing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#pricing #short, #pricing #medium, #pricing #long {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% / 3);
+  margin: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+#pricing .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
