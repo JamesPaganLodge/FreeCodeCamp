@@ -13,16 +13,16 @@
     <nav id="navbar">
       <header>Openedge ABL</header>
       <ul>
-        <li><a href="#what-is-openedge-abl" class="nav-link">What is Openedge ABL?</a></li>
-        <li><a href="#hello-world" class="nav-link">Hello World</a></li>
-        <li><a href="#basic-variable-types" class="nav-link">Basic Variable Types</a></li>
-        <li><a href="#procedures-and-functions" class="nav-link">Procedures and Functions</a></li>
-        <li><a href="#comments" class="nav-link">Comments</a></li>
+        <li><a href="#What_is_Openedge_ABL" class="nav-link">What is Openedge ABL</a></li>
+        <li><a href="#Hello_World" class="nav-link">Hello World</a></li>
+        <li><a href="#Basic_Variable_Types" class="nav-link">Basic Variable Types</a></li>
+        <li><a href="#Procedures_and_Functions" class="nav-link">Procedures and Functions</a></li>
+        <li><a href="#Comments" class="nav-link">Comments</a></li>
       </ul>
     </nav>
     <main id="main-doc">
-      <section class="main-section" id="what-is-openedge-abl">
-        <h3>What is Openedge ABL?</h3>
+      <section class="main-section" id="What_is_Openedge_ABL">
+        <header>What is Openedge ABL</header>
         <article>
           <p>Openedge ABL is known as a 4GL language which has supposedly built upon the functionality of 3GL languages. The purpose of the 
             4GL languages was to open up the power of programming to non-developers to enable them to write reports and update databases. Openedge 
@@ -40,8 +40,8 @@
         </article>
       </section>
 
-      <section class="main-section" id="hello-world">
-        <h3>Hello World</h3>
+      <section class="main-section" id="Hello_World">
+        <header>Hello World</header>
         <article>
           <p>To output the text "Hello World!" copy the following into the Openedge Editor:</p>
           <code>message "Hello World!" view-as alert-box.</code>
@@ -49,8 +49,8 @@
         </article>
       </section>
 
-      <section class="main-section" id="basic-variable-types">
-        <h3>Basic Variable Types</h3>
+      <section class="main-section" id="Basic_Variable_Types">
+        <header>Basic Variable Types</header>
         <article>
           <p>Variables can be declared as the following basic types:</p>
           <ul>
@@ -64,12 +64,12 @@
         </article>
       </section>
 
-      <section class="main-section" id="procedures-and-functions">
-        <h3>Procedures and Functions</h3>
+      <section class="main-section" id="Procedures_and_Functions">
+        <header>Procedures and Functions</header>
         <article>
           <p>Procedural Openedge files end in a '.p' file extension and can include user defined procedures and functions. Or it
             doesn't need to and the whole file can be one procedure that is executed from top to bottom.</p>
-          <h4>Procedures</h4>
+          <h3>Procedures</h3>
           <code>
             procedure "procedure-name":
               define input parameter cInput1 as character no-undo.
@@ -81,7 +81,7 @@
             file using <code>run procedure-name.</code>.
           </p>
 
-          <h4>Functions</h4>
+          <h3>Functions</h3>
           <code>
             function fDoSomething returns logical () forward.
 
@@ -100,17 +100,19 @@
         </article>
       </section>
 
-      <section class="main-section" id="comments">
-        <h3>Comments</h3>
-        <code>
-          /* 
-            Multi-line
-            Comment
-          */
+      <section class="main-section" id="Comments">
+        <header>Comments</header>
+        <article>
+          <code>
+            /* 
+              Multi-line
+              Comment
+            */
 
-          // Single-line comment
-        </code>
-        <p>Until v11.7 Openedge only supported the multi-line comment syntax. Now it supports single-line comments too!</p>
+            // Single-line comment
+          </code>
+          <p>Until v11.7 Openedge only supported the multi-line comment syntax. Now it supports single-line comments too!</p>
+        </article>
       </section>
     </main>
 
