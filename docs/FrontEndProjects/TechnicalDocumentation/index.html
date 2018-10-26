@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Technical Documentation</title>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Openedge ABL</header>
+      <ul>
+        <li><a href="#What_is_Openedge_ABL" class="nav-link">What is Openedge ABL</a></li>
+        <li><a href="#Hello_World" class="nav-link">Hello World</a></li>
+        <li><a href="#Basic_Variable_Types" class="nav-link">Basic Variable Types</a></li>
+        <li><a href="#Procedures_and_Functions" class="nav-link">Procedures and Functions</a></li>
+        <li><a href="#Comments" class="nav-link">Comments</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="What_is_Openedge_ABL">
+        <header>What is Openedge ABL</header>
+        <article>
+          <p>Openedge ABL is known as a 4GL language which has supposedly built upon the functionality of 3GL languages. The purpose of the 
+            4GL languages was to open up the power of programming to non-developers to enable them to write reports and update databases. Openedge 
+            both a database query language and a programming language. Originally Openedge ABL could only be written procedurally, but for the last
+            couple of version object-orientation has been introduced, although not adopted everywhere due to large legacy code bases.</p>
+          <p>Other 4GL languages:</p>
+          <ul>
+            <li>PowerBuilder</li>
+            <li>Oracle Application Development Framework</li>
+            <li>Clarion</li>
+          </ul>
+          <p>Openedge is currently on version 11.7.4 with version 12 set to be released in Q4 2018. Version 12 will finally bring multi-threading
+            to the language</p>
+          </p>
+        </article>
+      </section>
+
+      <section class="main-section" id="Hello_World">
+        <header>Hello World</header>
+        <article>
+          <p>To output the text "Hello World!" copy the following into the Openedge Editor:</p>
+          <code>message "Hello World!" view-as alert-box.</code>
+          <p>This should pop up an alert box on the screen.</p>
+        </article>
+      </section>
+
+      <section class="main-section" id="Basic_Variable_Types">
+        <header>Basic Variable Types</header>
+        <article>
+          <p>Variables can be declared as the following basic types:</p>
+          <ul>
+            <li>character - a character string</li>
+            <li>integer - a number</li>
+            <li>logical - a boolean, can be true, false and ? (kind of like null, but called the unknown value)</li>
+          </ul>
+          <p>The syntax to declare a variable is as follows:</p>
+          <code>define variable iNumber as integer no-undo.</code>
+          <p>Openedge ABL uses the . (dot/fullstop) to complete statements unlike javascript and C# that use a ; (semi-colon).</p>
+        </article>
+      </section>
+
+      <section class="main-section" id="Procedures_and_Functions">
+        <header>Procedures and Functions</header>
+        <article>
+          <p>Procedural Openedge files end in a '.p' file extension and can include user defined procedures and functions. Or it
+            doesn't need to and the whole file can be one procedure that is executed from top to bottom.</p>
+          <h3>Procedures</h3>
+          <code>
+            procedure "procedure-name":
+              define input parameter cInput1 as character no-undo.
+              define output parameter lOutput as logical no-undo.
+
+            end procedure.
+          </code>
+          <p>The above sytanx is used to declare a new procedure in a '.p' file. These can be declared anywhere and referenced from the same
+            file using <code>run procedure-name.</code>.
+          </p>
+
+          <h3>Functions</h3>
+          <code>
+            function fDoSomething returns logical () forward.
+
+            // other code in file
+
+            function fDoSomething returns logical():
+              // do some processing
+
+              return true.
+            end function.
+          </code>
+          <p>Functions need to be declared before they can be used, hence the forward declaraction and the function implementation. For ease of code
+            organisation the forward declaraction can be put at the top of the file and the function implementation can be put anywhere else in the
+            file. Functions can be called during variable assignment <code>assign lResponse = fDoSomething().</code>.
+          </p>
+        </article>
+      </section>
+
+      <section class="main-section" id="Comments">
+        <header>Comments</header>
+        <article>
+          <code>
+            /* 
+              Multi-line
+              Comment
+            */
+
+            // Single-line comment
+          </code>
+          <p>Until v11.7 Openedge only supported the multi-line comment syntax. Now it supports single-line comments too!</p>
+        </article>
+      </section>
+    </main>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
