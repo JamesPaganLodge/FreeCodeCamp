@@ -242,3 +242,18 @@ console.log(testElseIf(7));
 console.log(testElseIf(10));
 console.log(testElseIf(12));
 // ------------------------------------------
+// If else logical order
+function orderMyLogic(val) {
+  if (val < 5) {
+    return "Less than 5";
+  } else if (val < 10) {
+    return "Less than 10";
+  } else {
+    return "Greater than or equal to 10";
+  }
+}
+console.log("\nIf else logical order");
+console.log(orderMyLogic(4));
+console.log(orderMyLogic(6));
+console.log(orderMyLogic(11));
+// ------------------------------------------
