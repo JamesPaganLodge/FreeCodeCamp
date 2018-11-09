@@ -17,5 +17,12 @@ var difference = 45 - 33;
 var product = 8 * 0;
 
 // Answer
-var product = 8 * 0;
+var product = 8 * 10;
+// ------------------------------------------
+// Division
+// Setup
+var quotient = 66 / 0;
+
+// Answer
+var quotient = 66 / 33;
 // ------------------------------------------
