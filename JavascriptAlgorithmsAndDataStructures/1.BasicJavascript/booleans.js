@@ -225,3 +225,20 @@ console.log(testElse(5));
 console.log(testElse(6));
 console.log(testElse(10));
 // ------------------------------------------
+// Else if statements
+function testElseIf(val) {
+  if (val > 10) {
+    return "Greater than 10";
+  } else if (val < 5) {
+    return "Smaller than 5";
+  } else {
+    return "Between 5 and 10";
+  }
+}
+console.log("\nElse if statements");
+console.log(testElseIf(0));
+console.log(testElseIf(5));
+console.log(testElseIf(7));
+console.log(testElseIf(10));
+console.log(testElseIf(12));
+// ------------------------------------------
