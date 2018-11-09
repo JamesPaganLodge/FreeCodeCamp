@@ -32,3 +32,12 @@ var ourStr = "Hello, our name is " + ourName + ", how are you?";
 var myName = "Harry Potter";
 var myStr = "My name is " + myName + " and I am well!";
 // ------------------------------------------
+// Appending variables
+var anAdjective = "awesome!";
+var ourStr = "freeCodeCamp is ";
+ourStr += anAdjective;
+
+var someAdjective = "most excellent!";
+var myStr = "Learning to code is ";
+myStr += someAdjective;
+// ------------------------------------------
