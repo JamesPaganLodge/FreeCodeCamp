@@ -34,3 +34,6 @@ myVar++; // = myVar + 1;
 var myVar = 11;
 myVar--; // = myVar - 1;
 // ------------------------------------------
+// Decimal numbers
+var ourDecimal = 5.7;
+var myDecimal = 3.1431;
