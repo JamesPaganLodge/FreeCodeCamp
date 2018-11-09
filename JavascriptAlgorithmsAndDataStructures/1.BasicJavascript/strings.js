@@ -59,3 +59,8 @@ var firstLetterOfLastName = "";
 var lastName = "Lovelace";
 firstLetterOfLastName = lastName[0];
 // ------------------------------------------
+// String immutability
+var myStr = "Jello World";
+myStr[0] = "H"; // This doesn't change myStr to "Hello World" as you cannot change individual chars
+myStr = "Hello World";
+// ------------------------------------------
