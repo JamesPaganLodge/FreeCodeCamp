@@ -6,3 +6,6 @@ var lastName = "Turing";
 var myFirstName = "Harry";
 var myLastName = "Potter";
 // ------------------------------------------
+// Double quoted string
+var myStr = "I am a \"double quoted\" string inside \"double quotes\".";
+// ------------------------------------------
