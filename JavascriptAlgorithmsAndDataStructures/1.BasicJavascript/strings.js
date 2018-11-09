@@ -50,3 +50,12 @@ var lastNameLength = 0;
 var lastName = "Lovelace";
 lastNameLength = lastName.length;
 // ------------------------------------------
+// Find first char of string
+var firstLetterOfFirstName = "";
+var firstName = "Ada";
+firstLetterOfFirstName = firstName[0];
+
+var firstLetterOfLastName = "";
+var lastName = "Lovelace";
+firstLetterOfLastName = lastName[0];
+// ------------------------------------------
