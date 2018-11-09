@@ -10,3 +10,6 @@ var b = 2;
 
 a = 7;
 b = a;
+
+// Initializing variables
+var a = 9;
