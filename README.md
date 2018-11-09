@@ -17,4 +17,4 @@ This includes the following sections
     * [x] [Survey Page](https://jamespaganlodge.github.io/FreeCodeCamp/docs/FrontEndProjects/Survey/index.html "Survey Page")
     * [x] [Product Landing Page](https://jamespaganlodge.github.io/FreeCodeCamp/docs/FrontEndProjects/ProductLanding/index.html "Product Landing Page")
     * [x] [Technical Documentation Page](https://jamespaganlodge.github.io/FreeCodeCamp/docs/FrontEndProjects/TechnicalDocumentation/index.html "Technical Documentation Page")
-    * [ ] [Personal Portfolio](https://jamespaganlodge.github.io/FreeCodeCamp/ "Personal Portfolio")
+    * [x] [Personal Portfolio](https://jamespaganlodge.github.io/FreeCodeCamp/docs/FrontEndProjects/PersonalPortfolio/index.html "Personal Portfolio")
