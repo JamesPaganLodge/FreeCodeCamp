@@ -150,3 +150,24 @@ console.log(testLessThan(54));
 console.log(testLessThan(55));
 console.log(testLessThan(99));
 // ------------------------------------------
+// Comparison with less than or equal operator
+function testLessOrEqual(val) {
+  if (val <= 12) {
+    return "Smaller than or equal to 12";
+  }
+
+  if (val <= 24) {
+    return "Smaller than or equal to 24";
+  }
+
+  return "More than 24";
+}
+console.log("\nLess than or equal");
+console.log(testLessOrEqual(0));
+console.log(testLessOrEqual(11));
+console.log(testLessOrEqual(12));
+console.log(testLessOrEqual(23));
+console.log(testLessOrEqual(24));
+console.log(testLessOrEqual(25));
+console.log(testLessOrEqual(55));
+// ------------------------------------------
