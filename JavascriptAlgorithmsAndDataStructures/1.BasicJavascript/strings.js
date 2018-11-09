@@ -64,3 +64,9 @@ var myStr = "Jello World";
 myStr[0] = "H"; // This doesn't change myStr to "Hello World" as you cannot change individual chars
 myStr = "Hello World";
 // ------------------------------------------
+// Find Nth character of string
+var firstName = "Ada";
+var secondLetterOfFirstName = firstName[1];
+var lastName = "Lovelace";
+var thirdLetterOfLastName = lastName[2];
+// ------------------------------------------
