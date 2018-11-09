@@ -59,3 +59,18 @@ console.log("\nCompare Equality");
 console.log(compareEquality(10, "10"));
 console.log(compareEquality("20", 20));
 // ------------------------------------------
+// Comparison with inequality operator
+function testNotEqual(val) {
+  if (val != 99) {
+    return "Not Equal";
+  }
+  return "Equal";
+}
+console.log("\nInequality Operator");
+console.log(testNotEqual(10));
+console.log(testNotEqual(99));
+console.log(testNotEqual("99"));
+console.log(testNotEqual(12));
+console.log(testNotEqual("12"));
+console.log(testNotEqual("bob"));
+// ------------------------------------------
