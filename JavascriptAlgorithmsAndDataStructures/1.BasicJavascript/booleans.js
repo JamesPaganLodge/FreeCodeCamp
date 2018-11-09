@@ -74,3 +74,17 @@ console.log(testNotEqual(12));
 console.log(testNotEqual("12"));
 console.log(testNotEqual("bob"));
 // ------------------------------------------
+// Comparison with strict inequality operator
+function testStrictNotEqual(val) {
+  if (val !== 17) {
+    return "Not Equal";
+  }
+  return "Equal";
+}
+console.log("\nStrict inequality operator");
+console.log(testStrictNotEqual(10));
+console.log(testStrictNotEqual(17));
+console.log(testStrictNotEqual("17"));
+console.log(testStrictNotEqual(12));
+console.log(testStrictNotEqual("bob"));
+// ------------------------------------------
