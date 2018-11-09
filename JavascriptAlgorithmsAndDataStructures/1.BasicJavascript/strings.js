@@ -16,3 +16,7 @@ var myStrNew = '<a href="http://www.example.com" target="_blank">Link</a>';
 // Escape sequences
 var myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
 // ------------------------------------------
+// Concat strings
+var ourStr = "I come first. " + "I come second.";
+var myStr = "This is the start. " + "This is the end.";
+// ------------------------------------------
