@@ -15,3 +15,10 @@ var ourData = ourArray[0];
 var myArray = [50,60,70];
 var myData = myArray[0];
 // ------------------------------------------
+// Modify array data with indexes
+var ourArray = [18,64,99];
+ourArray[1] = 45;
+
+var myArray = [18,64,99];
+myArray[0] = 45;
+// ------------------------------------------
