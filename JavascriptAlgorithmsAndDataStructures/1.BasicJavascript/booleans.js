@@ -20,6 +20,7 @@ function trueOrFalse(wasThatTrue) {
 
   return "No, that was false";
 }
+console.log("\nTure or False");
 console.log(trueOrFalse(true));
 console.log(trueOrFalse(false));
 // ------------------------------------------
@@ -30,6 +31,7 @@ function testEqual(val) {
   }
   return "Not Equal";
 }
+console.log("\nEquality");
 console.log(testEqual(10));
 console.log(testEqual(12));
 console.log(testEqual("12"));
@@ -41,7 +43,19 @@ function testStrict(val) {
   }
   return "Not Equal";
 }
+console.log("\nStrict Equality");
 console.log(testStrict(10));
 console.log(testStrict(7));
 console.log(testStrict("7"));
+// ------------------------------------------
+// Compare equality
+function compareEquality(a, b) {
+  if (a === b) {
+    return "Equal";
+  }
+  return "Not Equal";
+}
+console.log("\nCompare Equality");
+console.log(compareEquality(10, "10"));
+console.log(compareEquality("20", 20));
 // ------------------------------------------
