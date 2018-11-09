@@ -57,6 +57,7 @@ myLocalScope();
 //console.log(myVar); // cannot access myVar as its only declard in the function
 // ------------------------------------------
 // Global vs. Local scope in functions
+// local variables with the same name take precedence over the global version
 var outerWear = "T-Shirt";
 
 function myOutfit() {
@@ -64,4 +65,17 @@ function myOutfit() {
   return outerWear;
 }
 console.log(myOutfit());
+// ------------------------------------------
+// Return a value from a function
+function minusSeven(num) {
+  return num - 7;
+}
+console.log(minusSeven(10));
+
+function timesFive(num) {
+  return num * 5;
+}
+console.log(timesFive(5));
+console.log(timesFive(2));
+console.log(timesFive(0));
 // ------------------------------------------
