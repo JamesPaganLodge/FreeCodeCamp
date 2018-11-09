@@ -1,7 +1,7 @@
 function welcomeToBooleans() {
   return true;
 }
-
+// ------------------------------------------
 // Conditional logic with if statements
 function ourTrueOrFalse(isItTrue) {
   if (isItTrue) {
@@ -22,4 +22,15 @@ function trueOrFalse(wasThatTrue) {
 }
 console.log(trueOrFalse(true));
 console.log(trueOrFalse(false));
+// ------------------------------------------
+// Comparison with equality operator
+function testEqual(val) {
+  if (val == 12) {
+    return "Equal";
+  }
+  return "Not Equal";
+}
+console.log(testEqual(10));
+console.log(testEqual(12));
+console.log(testEqual("12"));
 // ------------------------------------------
