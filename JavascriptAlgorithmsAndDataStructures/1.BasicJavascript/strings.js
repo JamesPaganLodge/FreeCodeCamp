@@ -76,3 +76,9 @@ var lastLetterOfFirstName = firstName[firstName.length - 1];
 var lastName = "Lovelace";
 var lastLetterOfLastName = lastName[lastName.length - 1];
 // ------------------------------------------
+// Find Nth to last character of string
+var firstName = "Ada";
+var thirdToLastLetterOfFirstName = firstName[firstName.length - 3];
+var lastName = "LoveLace";
+var secondToLastLetterOfLastName = lastName[lastName.length - 2];
+// ------------------------------------------
