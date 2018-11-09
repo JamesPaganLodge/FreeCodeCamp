@@ -10,38 +10,63 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
   </head>
 
-  <body>
-    <div id="page-wrapper">
-      <header>
-        <nav id="navbar">
-          <ul>
-            <li><a href="#welcome-section">Welcome</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#profile-link">Profile Links</a></li>
-          </ul>
-        </nav>
-      </header>
-
-      <main>
-        <section id="welcome-section" class="intro">
-          <h1>Hi, my name is James Pagan-Lodge</h1>
-          <p>Welcome to my Free Code Camp portfolio</p>
-        </section>
-
-        <section id="projects">
-          <div class="card">
-            <div class="project-title">
-
+  <body>    
+      <nav>
+        <ul id="navbar">
+          <li><a href="#welcome-section">Welcome</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Profile Links</a></li>
+        </ul>
+      </nav>
+      
+      <div class="page-container">
+        <main>
+          <section id="welcome-section" class="intro">
+            <div id="intro-text">
+              <h1>Hi, I'm James Pagan-Lodge</h1>
+              <p>A developer</p>
             </div>
-          </div>
-        </section>
+          </section>
 
-        <section id="profile-link">
+          <section id="projects" class="work">
+            <h2 class="work-header">These are my projects</h2>
+            <div class="pull-left">
+              <h3>Free Code Camp</h3>
+              <p>Responsive Web Design</p>
+            </div>
+            <a href="https://jamespaganlodge.github.io/FreeCodeCamp/docs/FrontEndProjects/Tribute/index.html" target="_blank" class="project project-tile">
+              <img class="project-pic" src="img/tribute.png" alt="Tribute Page" />
+              <p class="project-title">Tribute Page</p>
+            </a>
+            <a href="https://jamespaganlodge.github.io/FreeCodeCamp/docs/FrontEndProjects/Survey/index.html" target="_blank" class="project project-tile">
+              <img class="project-pic" src="img/survey.png" alt="Survey Form" />
+              <p class="project-title">Survey Form</p>
+            </a>
+            <a href="https://jamespaganlodge.github.io/FreeCodeCamp/docs/FrontEndProjects/ProductLanding/index.html" target="_blank" class="project project-tile">
+              <img class="project-pic" src="img/product-landing.png" alt="Product Landing Page" />
+              <p class="project-title">Product Landing</p>
+            </a>
+            <a href="ttps://jamespaganlodge.github.io/FreeCodeCamp/docs/FrontEndProjects/TechnicalDocumentation/index.html" target="_blank" class="project project-tile">
+              <img class="project-pic" src="img/tech-doc.png" alt="Technical Documentation" />
+              <p class="project-title">Technical Documentation</p>
+            </a>
+            <hr />
+          </section>
+          
+          <section id="contact" class="contact">
+            <div class="header">
+              <h1>Get in contact below</h1>
+            </div>
+            <a href="https://www.freecodecamp.org/jamespagan-lodge" target="_blank" class="contact-details">FCC</a>
+            <a href="https://github.com/JamesPaganLodge" target="_blank" class="contact-details" id='profile-link'>GitHub</a>
+          </section>
+        </main>
 
-        </section>
-      </main>
-    </div>
-
+        <footer>
+          <p>&copy; Created by James Pagan-Lodge for <a href="https://www.freecodecamp.com/" target="_blank">FreeCodeCamp</a> responsive web design</p>
+        </footer>
+      </div>
+      
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>
