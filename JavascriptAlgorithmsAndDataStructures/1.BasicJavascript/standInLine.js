@@ -1,4 +1,6 @@
 function nextInLine(arr, item) {
+  arr.push(item);
+  item = arr.shift();
   
   return item;
 }
