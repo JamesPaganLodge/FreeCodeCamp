@@ -37,3 +37,11 @@ myVar--; // = myVar - 1;
 // Decimal numbers
 var ourDecimal = 5.7;
 var myDecimal = 3.1431;
+// ------------------------------------------
+// Multiply decimal numbers
+// Setup
+var product = 2.0 * 0.0;
+
+// Answer
+var product = 2.0 * 2.5;
+// ------------------------------------------
