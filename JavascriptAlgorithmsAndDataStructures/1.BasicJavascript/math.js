@@ -45,3 +45,10 @@ var product = 2.0 * 0.0;
 // Answer
 var product = 2.0 * 2.5;
 // ------------------------------------------
+// Divide decimal numbers
+// Setup
+var quotient = 0.0 / 2.0;
+
+// Answer
+var quotient = 4.4 / 2.0;
+// ------------------------------------------
