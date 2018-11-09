@@ -1,14 +1,21 @@
-// Adding 2 numbers
+// Addition
 // Setup
 var sum = 10 + 0;
 
 // Answer
 var sum = 10 + 10;
 // ------------------------------------------
-// Subtract 2 numbers
+// Subtraction
 // Setup
 var difference = 45 - 0;
 
 // Answer
 var difference = 45 - 33;
+// ------------------------------------------
+// Multiplication
+// Setup
+var product = 8 * 0;
+
+// Answer
+var product = 8 * 0;
 // ------------------------------------------
