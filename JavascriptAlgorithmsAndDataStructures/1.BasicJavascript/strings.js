@@ -26,3 +26,9 @@ outStr += "I come second.";
 var myStr = "This is the first sentence. ";
 myStr += "This is the second sentence.";
 // ------------------------------------------
+// Construct strings with variables
+var ourName = "freeCodeCamp";
+var ourStr = "Hello, our name is " + ourName + ", how are you?";
+var myName = "Harry Potter";
+var myStr = "My name is " + myName + " and I am well!";
+// ------------------------------------------
