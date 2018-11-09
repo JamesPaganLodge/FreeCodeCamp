@@ -5,3 +5,10 @@ function ourReusableFunction() {
 
 ourReusableFunction();
 
+// Writing reusable js with functions
+function reusableFunction() {
+  console.log("Hi World");
+}
+
+reusableFunction();
+// ------------------------------------------
