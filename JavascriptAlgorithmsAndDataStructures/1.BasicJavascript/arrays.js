@@ -26,3 +26,10 @@ myArray[0] = 45;
 var myArray = [[1,2,3],[4,5,6],[7,8,9],[[10,11,12],13,14]];
 var myData = myArray[2][1]; // access the value 8
 // ------------------------------------------
+// Array manipulation: push()
+var ourArray = ["Stimpson", "J", "cat"];
+ourArray.push(["happy", "joy"]);
+// ourArray = ["Stimpson", "J", "cat", ["happy", "joy"]]
+var myArray = [["John", 23], ["cat", 2]];
+myArray.push(["dog", 3]);
+// ------------------------------------------
