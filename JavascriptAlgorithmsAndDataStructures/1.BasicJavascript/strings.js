@@ -41,3 +41,12 @@ var someAdjective = "most excellent!";
 var myStr = "Learning to code is ";
 myStr += someAdjective;
 // ------------------------------------------
+// Find the length of String
+var firstNameLength = 0;
+var firstName = "Ada";
+firstNameLength = firstName.length;
+
+var lastNameLength = 0;
+var lastName = "Lovelace";
+lastNameLength = lastName.length;
+// ------------------------------------------
