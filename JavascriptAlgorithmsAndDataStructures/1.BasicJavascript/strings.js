@@ -20,3 +20,9 @@ var myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
 var ourStr = "I come first. " + "I come second.";
 var myStr = "This is the start. " + "This is the end.";
 // ------------------------------------------
+// Concat strings with +=
+var ourStr = "I come first. ";
+outStr += "I come second.";
+var myStr = "This is the first sentence. ";
+myStr += "This is the second sentence.";
+// ------------------------------------------
