@@ -70,3 +70,9 @@ var secondLetterOfFirstName = firstName[1];
 var lastName = "Lovelace";
 var thirdLetterOfLastName = lastName[2];
 // ------------------------------------------
+// Find last character of string
+var firstName = "Ada";
+var lastLetterOfFirstName = firstName[firstName.length - 1];
+var lastName = "Lovelace";
+var lastLetterOfLastName = lastName[lastName.length - 1];
+// ------------------------------------------
