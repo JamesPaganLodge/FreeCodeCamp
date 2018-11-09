@@ -79,3 +79,15 @@ console.log(timesFive(5));
 console.log(timesFive(2));
 console.log(timesFive(0));
 // ------------------------------------------
+// Undefined value returned from a function
+var sum = 0;
+function addThree() {
+  sum = sum + 3;
+}
+
+function addFive() {
+  sum = sum + 5;
+}
+var returnedValue = addFive();
+console.log(returnedValue);
+// ------------------------------------------
