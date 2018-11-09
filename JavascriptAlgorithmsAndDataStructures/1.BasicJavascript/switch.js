@@ -126,3 +126,11 @@ console.log(chaingToSwitch(7));
 console.log(chaingToSwitch("John"));
 console.log(chaingToSwitch(156));
 // ------------------------------------------
+// Return boolean values from functions
+function isLess(a, b) {
+  return a < b;
+}
+console.log("\nFunction return boolean");
+console.log(isLess(10,15));
+console.log(isLess(15,10));
+// ------------------------------------------
