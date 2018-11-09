@@ -47,3 +47,12 @@ function fun2() {
 fun1();
 fun2();
 // ------------------------------------------
+// Local scope with functions
+function myLocalScope() {
+  'use strict';
+  var myVar = "Local Scope";
+  console.log(myVar);
+}
+myLocalScope();
+//console.log(myVar); // cannot access myVar as its only declard in the function
+// ------------------------------------------
