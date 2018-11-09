@@ -207,3 +207,21 @@ console.log(testLogicalOr(20));
 console.log(testLogicalOr(21));
 console.log(testLogicalOr(25));
 // ------------------------------------------
+// Else statements
+function testElse(val) {
+  var result = "";
+
+  if (val > 5) {
+    result = "Bigger than 5";
+  } else {
+    result = "5 or smaller";
+  }
+
+  return result;
+}
+console.log("\nElse statements");
+console.log(testElse(4));
+console.log(testElse(5));
+console.log(testElse(6));
+console.log(testElse(10));
+// ------------------------------------------
