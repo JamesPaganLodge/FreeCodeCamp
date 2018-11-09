@@ -56,3 +56,12 @@ function myLocalScope() {
 myLocalScope();
 //console.log(myVar); // cannot access myVar as its only declard in the function
 // ------------------------------------------
+// Global vs. Local scope in functions
+var outerWear = "T-Shirt";
+
+function myOutfit() {
+  var outerWear = "sweater";
+  return outerWear;
+}
+console.log(myOutfit());
+// ------------------------------------------
