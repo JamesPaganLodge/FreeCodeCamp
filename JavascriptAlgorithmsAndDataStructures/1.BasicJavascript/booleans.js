@@ -34,3 +34,14 @@ console.log(testEqual(10));
 console.log(testEqual(12));
 console.log(testEqual("12"));
 // ------------------------------------------
+// Comparison with the strict equality operator
+function testStrict(val) {
+  if (val === 7) {
+    return "Equal";
+  }
+  return "Not Equal";
+}
+console.log(testStrict(10));
+console.log(testStrict(7));
+console.log(testStrict("7"));
+// ------------------------------------------
