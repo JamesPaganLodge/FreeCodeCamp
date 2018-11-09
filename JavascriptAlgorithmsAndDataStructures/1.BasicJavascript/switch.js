@@ -134,3 +134,18 @@ console.log("\nFunction return boolean");
 console.log(isLess(10,15));
 console.log(isLess(15,10));
 // ------------------------------------------
+// Function return early pattern
+function abTest(a, b) {
+
+  if (a < 0 || b < 0)
+    return undefined;
+
+  return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
+}
+console.log("\nFunction return early pattern");
+console.log(abTest(2,2));
+console.log(abTest(-2,2));
+console.log(abTest(2,-2));
+console.log(abTest(2,8));
+console.log(abTest(3,3));
+// ------------------------------------------
