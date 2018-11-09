@@ -41,10 +41,20 @@ var removedFromOurArray = ourArray.pop();
 var myArray = [["John", 23], ["cat", 2]];
 var removedFromMyArray = myArray.pop();
 // ------------------------------------------
-// Arra manipulation: shift()
+// Array manipulation: shift()
 // removes first element of array
 var ourArray = ["Stimpson", "J", ["cat"]];
 var removedFromOurArray = ourArray.shift();
 var myArray = [["John", 23], ["dog", 3]];
 var removedFromMyArray = myArray.shift();
+// ------------------------------------------
+// Array manipulation: unshift()
+// add to the start of the array
+var ourArray = ["Stimpson", "J", "cat"];
+ourArray.shift(); // ourArray == ["J", "cat"]
+ourArray.unshift("Happy"); // ourArray == ["Happy", "J", "cat"]
+
+var myArray = [["John", 23], ["dog", 3]];
+myArray.shift(); // myArray == [["dog", 3]]
+myArray.unshift(["Paul", 35]);
 // ------------------------------------------
