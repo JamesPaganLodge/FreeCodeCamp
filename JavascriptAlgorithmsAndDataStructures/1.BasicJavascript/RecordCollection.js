@@ -29,8 +29,25 @@ var collectionCopy = JSON.parse(JSON.stringify(collection));
 
 function updateRecords(id, prop, value) {
   
+  switch(prop) {
+    case "artist":
+      if (value == "")
+        delete collection[id].artist;
+
+      break;
+    case "album":
+    case "tracks":
+  };
   
   return collection;
 }
 
+// tests
 updateRecords(5439, "artist", "ABBA");
+console.log(collection[5439]);
+
+updateRecords(5439, "tracks", "Take a Chance on Me");
+console.log(collection[5439]);
+
+updateRecords(2548, "artist", "");
+console.log(collection[2548]);
