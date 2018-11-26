@@ -23,6 +23,13 @@ This includes the following sections
 
 This includes the following sections
   * [ ] Basic Javascript
+    * [x] Word Blanks
+    * [x] Shopping List
+    * [x] Stand In Line
+    * [x] Golf Code
+    * [x] Counting Cards
+    * [ ] Record Collection
+    * [ ] Profile Lookup
   * [ ] ES6
   * [ ] Regular Expressions
   * [ ] Debugging
