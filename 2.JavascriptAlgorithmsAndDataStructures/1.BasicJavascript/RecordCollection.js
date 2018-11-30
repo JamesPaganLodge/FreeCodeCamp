@@ -31,14 +31,14 @@ function updateRecords(id, prop, value) {
   
   if (prop == "tracks" && value != "") {
     if (collection[id][prop]) {
-      collection[id][prop].push(value);
+      collection[id][prop].push(value); // if the tracks property exists add the data to the array
     } else {
-      collection[id][prop] = [value];
+      collection[id][prop] = [value]; // if the tracks property doesnt exist then create it
     } 
   } else if (value != "") {      
-      collection[id][prop] = value;
+      collection[id][prop] = value; // new key (prop) and value are added or the current value is updated
   } else {
-    delete collection[id][prop];
+    delete collection[id][prop]; // delete the key (prop) if the value is ""
   }
   
   return collection;
