@@ -28,7 +28,7 @@ This includes the following sections
     * [x] Stand In Line
     * [x] Golf Code
     * [x] Counting Cards
-    * [ ] Record Collection
+    * [x] Record Collection
     * [ ] Profile Lookup
   * [ ] ES6
   * [ ] Regular Expressions
