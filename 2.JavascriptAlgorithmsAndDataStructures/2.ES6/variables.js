@@ -43,4 +43,17 @@ function checkScope() {
   return i;
 }
 
-checkScope();
+//checkScope();
+// ----------------------------------------------
+// Read-only variables with const
+function printManyTimes(str) {
+  'use strict';
+
+  const SENTENCE = str + " is cool!";
+
+  for (let i = 0; i < str.length; i += 2) {
+    console.log(SENTENCE);
+  }
+}
+
+printManyTimes("freeCodeCamp");
