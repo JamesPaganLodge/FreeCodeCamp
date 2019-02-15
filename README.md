@@ -29,7 +29,7 @@ This includes the following sections
     * [x] Golf Code
     * [x] Counting Cards
     * [x] Record Collection
-    * [ ] Profile Lookup
+    * [x] Profile Lookup
   * [ ] ES6
   * [ ] Regular Expressions
   * [ ] Debugging
