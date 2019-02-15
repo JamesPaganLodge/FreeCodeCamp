@@ -1,4 +1,5 @@
 // Exploring the differences between var and let keywords
+// Original
 var catName;
 var quote;
 
@@ -9,4 +10,20 @@ function catTalk() {
   quote = catName + " says Meow!";
 }
 
-console.log(catTalk());
+catTalk();
+console.log(catName);
+console.log(quote);
+// Updated
+let catName2;
+let quote2;
+
+function catTalk2() {
+  'use strict';
+
+  catName2 = "Oliver";
+  quote2 = catName2 + " says Meow!";
+}
+
+catTalk();
+console.log(catName2);
+console.log(quote2);
