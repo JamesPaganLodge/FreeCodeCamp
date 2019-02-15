@@ -16,3 +16,10 @@ for (var i = 1; i <= 5; i++) {
   myArray.push(i);
 }
 // ------------------------------------------
+// Iterate odd numbers with a for loop
+var myArray = [];
+
+for (var i = 1; i < 10; i += 2) {
+  myArray.push(i)
+}
+// ------------------------------------------
