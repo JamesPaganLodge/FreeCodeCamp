@@ -25,11 +25,19 @@ var contacts = [
   }
 ];
 
-function lookUpProfile(name, prop) {
-
+function lookUpProfile(name, prop) {  
+  for (var i = 0; i < contacts.length; i++) {
+    if (contacts[i].firstName == name) {
+      if (contacts[i].hasOwnProperty(prop))
+        return contacts[i][prop];
+      else
+        return "No such property";
+    }      
+  }
+  return "No such contact";
 }
 
-console.log(lookUpProfile("Kristian", "lastname")); // return a property
+console.log(lookUpProfile("Kristian", "lastName")); // return a property
 console.log(lookUpProfile("Sherlock", "likes")); // return an array
 console.log(lookUpProfile("Harry", "likes")); // return an array
 console.log(lookUpProfile("Bob", "number")); // No such contact
