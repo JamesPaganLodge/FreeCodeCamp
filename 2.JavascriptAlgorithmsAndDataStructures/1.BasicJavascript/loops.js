@@ -49,6 +49,16 @@ function multiplyAll(arr) {
   return product;
 }
 
-console.log(multiplyAll([[1],[2],[3]])); // 6
-console.log(multiplyAll([[1, 2],[3, 4],[5, 6, 7]])); // 5040
-console.log(multiplyAll([[5, 1],[0.2, 4, 0.5],[3, 9]])); // 54
+//console.log(multiplyAll([[1],[2],[3]])); // 6
+//console.log(multiplyAll([[1, 2],[3, 4],[5, 6, 7]])); // 5040
+//console.log(multiplyAll([[5, 1],[0.2, 4, 0.5],[3, 9]])); // 54
+// ------------------------------------------
+// Iterate with do while loops
+var myArray = [];
+var i = 10;
+do {
+  myArray.push(i);
+  i++;
+} while (i < 10);
+
+console.log(myArray);
