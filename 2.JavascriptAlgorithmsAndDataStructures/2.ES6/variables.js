@@ -56,4 +56,19 @@ function printManyTimes(str) {
   }
 }
 
-printManyTimes("freeCodeCamp");
+//printManyTimes("freeCodeCamp");
+// ----------------------------------------------
+// Mutate an array declared with const
+const S = [5, 7, 2];
+
+function editInPlace() {
+  'use strict';
+
+  S[0] = 2;
+  S[1] = 5;
+  S[2] = 7;
+}
+
+console.log(S);
+editInPlace();
+console.log(S);
