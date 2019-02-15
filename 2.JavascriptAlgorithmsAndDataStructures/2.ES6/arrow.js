@@ -34,5 +34,19 @@ const increment = (function() {
   }
 })();
 
-console.log(increment(5, 2));
-console.log(increment(5));
+//console.log(increment(5, 2));
+//console.log(increment(5));
+// ----------------------------------------------
+// Using the rest operator with function parameters
+const sum = (function() {
+  'use strict';
+  return function sum(...args) {
+    return args.reduce((a, b) => a + b, 0);
+  };
+})();
+
+console.log(sum(1, 2, 3));
+console.log(sum(0, 1, 2));
+console.log(sum(1, 2, 3, 4));
+console.log(sum(5));
+console.log(sum());
