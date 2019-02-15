@@ -3,3 +3,5 @@ var magic = function() {
   'use strict';
   return new Date();
 }
+
+const MAGIC = () => new Date();
