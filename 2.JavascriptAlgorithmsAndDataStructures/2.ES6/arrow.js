@@ -45,8 +45,17 @@ const sum = (function() {
   };
 })();
 
-console.log(sum(1, 2, 3));
-console.log(sum(0, 1, 2));
-console.log(sum(1, 2, 3, 4));
-console.log(sum(5));
-console.log(sum());
+//console.log(sum(1, 2, 3));
+//console.log(sum(0, 1, 2));
+//console.log(sum(1, 2, 3, 4));
+//console.log(sum(5));
+//console.log(sum());
+// ----------------------------------------------
+// Using the spread operator to evaluate arrays in place
+const arr1 = ['JAN', 'FEB', 'MAR', 'APR', 'MAY'];
+let arr2;
+(function() {
+  'use strict';
+  arr2 = [...arr1];
+})();
+console.log(arr2);
