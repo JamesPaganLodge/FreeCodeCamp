@@ -1,6 +1,6 @@
 // Generate random fractions
 function randomFraction() {
-  return 0.
+  return Math.random();
 }
 
 console.log(randomFraction());
