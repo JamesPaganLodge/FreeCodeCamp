@@ -8,8 +8,15 @@ let sumAB = a + b;
 // ----------------------------------------------
 // Understanding the difference between fcc and browser console
 let outputTwo = "This will print to the browser console 2 times";
-console.log(outputTwo);
+//console.log(outputTwo);
 
 let outputOne = "Try to get this to log only once to the browser console";
-console.clear();
-console.log(outputOne);
+//console.clear();
+//console.log(outputOne);
+// ----------------------------------------------
+// Use typeof to check the type of a variable
+let seven = 7;
+let three = "3";
+console.log(seven + three);
+console.log(typeof seven);
+console.log(typeof three);
