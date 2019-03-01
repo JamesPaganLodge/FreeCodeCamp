@@ -33,7 +33,7 @@ This includes the following sections
   * [x] Record Collection
   * [x] Profile Lookup
 * [x] ES6
-* [ ] Regular Expressions
+* [x] Regular Expressions
 * [ ] Debugging
 * [ ] Basic Data Structures
 * [ ] Basic Algorithm Scripting
