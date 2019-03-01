@@ -14,4 +14,10 @@ let waldoResult = waldoRegex.test(waldoIsHiding);
 let petString = "James has a pet cat.";
 let petRegex = /dog|cat|bird|fish/;
 let petResult = petRegex.test(petString);
-console.log(petResult);
+//console.log(petResult);
+// ----------------------------------------------
+// Ignore case while matching
+let ignoreString = "freeCodeCamp";
+let ignoreRegex = /freecodecamp/i;
+let ignoreResult = ignoreRegex.test(ignoreString);
+console.log(ignoreResult);
