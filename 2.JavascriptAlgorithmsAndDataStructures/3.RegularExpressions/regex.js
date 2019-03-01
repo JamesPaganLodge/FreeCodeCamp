@@ -38,4 +38,10 @@ let twinkleResult = twinkleString.match(twinkleRegex);
 let wildString = "Let's have some fun with regular expressions!";
 let wildRegex = /.un/;
 let wildResult = wildRegex.test(wildString);
-console.log(wildResult);
+//console.log(wildResult);
+// ----------------------------------------------
+// Match a single character with multiple possibilities
+let quoteString = "Beware of bugs in the above code; I have only proved it correct, not tried it.";
+let vowelRegex = /[aeiou]/gi;
+let vowelResult = quoteString.match(vowelRegex);
+console.log(vowelResult);
