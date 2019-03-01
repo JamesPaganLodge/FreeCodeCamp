@@ -146,4 +146,10 @@ let nonWhitespaceResult = nonWhitespace.match(nonWhitespaceRegex);
 let ohStr = "Ohhhhhhh no";
 let ohRegex = /Oh{3,6}\sno/;
 let ohResult = ohRegex.test(ohStr);
-console.log(ohResult);
+//console.log(ohResult);
+// ----------------------------------------------
+// Specify only the lower number of matches
+let haStr = "Hazzzzah";
+let haRegex = /Haz{4,}ah/;
+let haResult = haRegex.test(haStr);
+console.log(haResult);
