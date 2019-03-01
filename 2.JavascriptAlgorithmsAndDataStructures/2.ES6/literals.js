@@ -19,4 +19,15 @@ const resultDisplayarray = makeList(result.failure);
 // Write concise object literal declarations using simple fields
 const createPerson = (name, age, gender) => ({name, age, gender});
 
-console.log(createPerson("Zodiac Hasbro", 56, "male")); // returns a proper object
+//console.log(createPerson("Zodiac Hasbro", 56, "male")); // returns a proper object
+// ----------------------------------------------
+// Write concise declarative dunctions with ES6
+const bicycle = {
+  gear: 2,
+  setGear(newGear) {
+    return this.gear = newGear;
+  }
+};
+
+bicycle.setGear(3);
+console.log(bicycle.gear);
