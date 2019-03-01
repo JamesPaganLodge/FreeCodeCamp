@@ -164,4 +164,10 @@ let timResult = timRegex.test(timStr);
 let favWord = "favorite";
 let favRegex = /favou?rite/;
 let favResult = favRegex.test(favWord);
-console.log(favResult);
+//console.log(favResult);
+// ----------------------------------------------
+// Positive and Negative lookahead
+let lookStr = "astronaut";
+let lookRegex = /(?=\w{5,})(?=\D*\d{2})/;
+let lookResult = lookRegex.test(lookStr);
+console.log(lookResult);
