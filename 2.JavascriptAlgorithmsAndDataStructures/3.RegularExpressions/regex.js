@@ -122,4 +122,10 @@ let numResult = numString.match(numRegex).length;
 let nonNumString = "Your sandwich will be $5.00";
 let nonNumRegex = /\D/g;
 let nonNumResult = nonNumString.match(nonNumRegex).length;
-console.log(nonNumResult);
+//console.log(nonNumResult);
+// ----------------------------------------------
+// Restric possible usernames
+let username = "JackOfAllTrades";
+let userCheck = /[A-z][A-z]+\d*/;
+let checkResult = userCheck.test(username);
+console.log(checkResult);
