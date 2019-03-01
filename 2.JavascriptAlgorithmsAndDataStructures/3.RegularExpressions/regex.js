@@ -158,4 +158,10 @@ let haResult = haRegex.test(haStr);
 let timStr = "Timmmmber";
 let timRegex = /Tim{4}ber/;
 let timResult = timRegex.test(timStr);
-console.log(timResult);
+//console.log(timResult);
+// ----------------------------------------------
+// Check for all or none
+let favWord = "favorite";
+let favRegex = /favou?rite/;
+let favResult = favRegex.test(favWord);
+console.log(favResult);
