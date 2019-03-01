@@ -14,4 +14,9 @@ function makeList(arr) {
 }
 
 const resultDisplayarray = makeList(result.failure);
-console.log(resultDisplayarray);
+//console.log(resultDisplayarray);
+// ----------------------------------------------
+// Write concise object literal declarations using simple fields
+const createPerson = (name, age, gender) => ({name, age, gender});
+
+console.log(createPerson("Zodiac Hasbro", 56, "male")); // returns a proper object
