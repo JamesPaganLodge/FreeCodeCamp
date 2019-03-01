@@ -32,7 +32,7 @@ This includes the following sections
   * [x] Counting Cards
   * [x] Record Collection
   * [x] Profile Lookup
-* [ ] ES6
+* [x] ES6
 * [ ] Regular Expressions
 * [ ] Debugging
 * [ ] Basic Data Structures
