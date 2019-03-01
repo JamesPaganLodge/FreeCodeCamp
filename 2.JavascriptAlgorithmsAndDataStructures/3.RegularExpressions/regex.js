@@ -176,6 +176,13 @@ let lookResult = lookRegex.test(lookStr);
 let repeatNum = "42 42 42";
 let reRegex = /^(\d+)\s\1\s\1$/;
 let reResult = reRegex.test(repeatNum);
-console.log(reResult);
+//console.log(reResult);
 let reMatch = repeatNum.match(reRegex);
-console.log(reMatch);
+//console.log(reMatch);
+// ----------------------------------------------
+// Use capture groups to search and replace
+let huhText = "This sandwich is good.";
+let fixRegex = /good/;
+let replaceText = "okey-dokey";
+let finalResult = huhText.replace(fixRegex, replaceText);
+console.log(finalResult);
