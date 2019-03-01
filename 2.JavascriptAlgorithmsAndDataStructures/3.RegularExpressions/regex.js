@@ -170,4 +170,12 @@ let favResult = favRegex.test(favWord);
 let lookStr = "astronaut";
 let lookRegex = /(?=\w{5,})(?=\D*\d{2})/;
 let lookResult = lookRegex.test(lookStr);
-console.log(lookResult);
+//console.log(lookResult);
+// ----------------------------------------------
+// Reuse patterns using capture groups
+let repeatNum = "42 42 42";
+let reRegex = /^(\d+)\s\1\s\1$/;
+let reResult = reRegex.test(repeatNum);
+console.log(reResult);
+let reMatch = repeatNum.match(reRegex);
+console.log(reMatch);
