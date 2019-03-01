@@ -44,4 +44,10 @@ let wildResult = wildRegex.test(wildString);
 let quoteString = "Beware of bugs in the above code; I have only proved it correct, not tried it.";
 let vowelRegex = /[aeiou]/gi;
 let vowelResult = quoteString.match(vowelRegex);
-console.log(vowelResult);
+//console.log(vowelResult);
+// ----------------------------------------------
+// Match letters of the alphabet
+let foxString = "The quick brown fox jumps over the lazy dog.";
+let alphabetRegex = /[A-z]/g;
+let alphabetResult = foxString.match(alphabetRegex);
+console.log(alphabetResult.length);
