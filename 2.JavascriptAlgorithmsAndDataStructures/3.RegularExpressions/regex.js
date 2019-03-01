@@ -80,4 +80,10 @@ let chewieResult = chewieString.match(chewieRegex);
 let htmlString = "<h1>Winter is coming</h1>";
 let htmlRegex = /<.*?>/;
 let htmlResult = htmlString.match(htmlRegex);
-console.log(htmlResult);
+//console.log(htmlResult);
+// ----------------------------------------------
+// Find one or more criminals in a hunt
+let crowd = "P1P2P3P4P5P6CCCP7P8P9";
+let criminalsRegex = /c+/i;
+let matchedCriminals = crowd.match(criminalsRegex);
+console.log(matchedCriminals);
