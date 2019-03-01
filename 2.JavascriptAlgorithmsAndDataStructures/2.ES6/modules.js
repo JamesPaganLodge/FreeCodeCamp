@@ -3,3 +3,8 @@ import { capitalizeString } from "string_functions";
 
 "use strict";
 capitalizeString("hello!");
+// ----------------------------------------------
+// Use export to reuse a code block
+"use strict";
+export const foo = "bar";
+export const bar = "foo";
