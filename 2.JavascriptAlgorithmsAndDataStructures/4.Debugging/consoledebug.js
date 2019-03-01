@@ -25,4 +25,9 @@ let three = "3";
 let receivables = 10;
 let payables = 8;
 let netWorkingCapital = receivables - payables; //recievables - payable;
-console.log(`Net working capital is: ${netWorkingCapital}`);
+//console.log(`Net working capital is: ${netWorkingCapital}`);
+// ----------------------------------------------
+// Catch unclosed parentheses, brackets, braces and quotes
+let myArray = [1,2,3]; //[1,2,3;
+let arraySum = myArray.reduce((previous, current) => previous + current);
+console.log(`Sum of array values is: ${arraySum}`);
