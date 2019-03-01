@@ -50,4 +50,10 @@ let vowelResult = quoteString.match(vowelRegex);
 let foxString = "The quick brown fox jumps over the lazy dog.";
 let alphabetRegex = /[A-z]/g;
 let alphabetResult = foxString.match(alphabetRegex);
-console.log(alphabetResult.length);
+//console.log(alphabetResult.length);
+// ----------------------------------------------
+// Match numbers and letters of the alphabet
+let blueString = "Blueberry 3.141592653s are delicious.";
+let blueRegex = /[h-s2-6]/gi;
+let blueResult = blueString.match(blueRegex);
+console.log(blueResult.length);
