@@ -100,14 +100,20 @@ let cabooseRegex = /caboose$/;
 let cabooseResult = cabooseRegex.test(caboose);
 //console.log(cabooseResult);
 // ----------------------------------------------
-// Match all letters and numbers
+// Match all letters and numbers using shorthand
 let sample = "The five boxing wizards jump quickly.";
 let alphaRegexV2 = /\w/g;
 let alphaResultV2 = sample.match(alphaRegexV2);
 //console.log(alphaResultV2.length);
 // ----------------------------------------------
-// Match everything but letters and numbers
+// Match everything but letters and numbers using shorthand
 let nonAlphaSample = "The five boxing wizards jump quickly.";
 let nonAlphaRegex = /\W/g;
 let nonAlphaResult = nonAlphaSample.match(nonAlphaRegex).length;
-console.log(nonAlphaResult);
+//console.log(nonAlphaResult);
+// ----------------------------------------------
+// Match all numbers using shorthand
+let numString = "Your sandwich will be $5.00";
+let numRegex = /\d/g;
+let numResult = numString.match(numRegex).length;
+console.log(numResult);
