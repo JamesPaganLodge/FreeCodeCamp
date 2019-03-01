@@ -86,4 +86,10 @@ let htmlResult = htmlString.match(htmlRegex);
 let crowd = "P1P2P3P4P5P6CCCP7P8P9";
 let criminalsRegex = /c+/i;
 let matchedCriminals = crowd.match(criminalsRegex);
-console.log(matchedCriminals);
+//console.log(matchedCriminals);
+// ----------------------------------------------
+// Match beginning string patterns
+let rickyAndCal = "Cal and Ricky both like racing.";
+let calRegex = /^Cal/;
+let calResult = calRegex.test(rickyAndCal);
+console.log(calResult);
