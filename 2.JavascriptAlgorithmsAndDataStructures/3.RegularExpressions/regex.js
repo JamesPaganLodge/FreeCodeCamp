@@ -56,4 +56,10 @@ let alphabetResult = foxString.match(alphabetRegex);
 let blueString = "Blueberry 3.141592653s are delicious.";
 let blueRegex = /[h-s2-6]/gi;
 let blueResult = blueString.match(blueRegex);
-console.log(blueResult.length);
+//console.log(blueResult.length);
+// ----------------------------------------------
+// Match single characters not specified
+let nonString = "3 blind mice.";
+let nonRegex = /[^aeiou0-9]/gi;
+let nonResult = nonString.match(nonRegex);
+console.log(nonResult.length);
