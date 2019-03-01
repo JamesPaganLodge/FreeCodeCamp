@@ -32,4 +32,10 @@ let extractResult = extractString.match(extractRegex);
 let twinkleString = "Twinkle, twinkle, little star";
 let twinkleRegex = /twinkle/gi;
 let twinkleResult = twinkleString.match(twinkleRegex);
-console.log(twinkleResult);
+//console.log(twinkleResult);
+// ----------------------------------------------
+// Match anything with wildcard period
+let wildString = "Let's have some fun with regular expressions!";
+let wildRegex = /.un/;
+let wildResult = wildRegex.test(wildString);
+console.log(wildResult);
