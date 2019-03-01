@@ -17,6 +17,12 @@ let outputOne = "Try to get this to log only once to the browser console";
 // Use typeof to check the type of a variable
 let seven = 7;
 let three = "3";
-console.log(seven + three);
-console.log(typeof seven);
-console.log(typeof three);
+//console.log(seven + three);
+//console.log(typeof seven);
+//console.log(typeof three);
+// ----------------------------------------------
+// Catch misspelled variable and function names
+let receivables = 10;
+let payables = 8;
+let netWorkingCapital = receivables - payables; //recievables - payable;
+console.log(`Net working capital is: ${netWorkingCapital}`);
