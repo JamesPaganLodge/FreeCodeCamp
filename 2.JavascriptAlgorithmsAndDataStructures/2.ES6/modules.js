@@ -16,3 +16,9 @@ import * as capitalize from "capitalize_strings";
 // Create an export fallback with export default
 "use strict";
 export default function subtract(x,y) {return x - y};
+// ----------------------------------------------
+// Import a default export
+import subtract from "math_functions";
+
+"use strict";
+subtract(7,4);
