@@ -130,8 +130,14 @@ let userCheck = /[A-z][A-z]+\d*/;
 let checkResult = userCheck.test(username);
 //console.log(checkResult);
 // ----------------------------------------------
-// Match whitespace
+// Match whitespace using shorthand
 let whitespaceString = "Whitespace is important in separating words";
 let whitespaceRegex = /\s/g;
 let whitespaceResult = whitespaceString.match(whitespaceRegex);
-console.log(whitespaceResult);
+//console.log(whitespaceResult);
+// ----------------------------------------------
+// Match non-whitespace characters using shorthand
+let nonWhitespace = "Whitespace is important in separating words";
+let nonWhitespaceRegex = /\S/g;
+let nonWhitespaceResult = nonWhitespace.match(nonWhitespaceRegex);
+console.log(nonWhitespaceResult.length);
