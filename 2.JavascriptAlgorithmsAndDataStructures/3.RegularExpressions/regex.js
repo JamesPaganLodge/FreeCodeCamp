@@ -92,4 +92,10 @@ let matchedCriminals = crowd.match(criminalsRegex);
 let rickyAndCal = "Cal and Ricky both like racing.";
 let calRegex = /^Cal/;
 let calResult = calRegex.test(rickyAndCal);
-console.log(calResult);
+//console.log(calResult);
+// ----------------------------------------------
+// Match ending string patterns
+let caboose = "The last car on the train is the caboose";
+let cabooseRegex = /caboose$/;
+let cabooseResult = cabooseRegex.test(caboose);
+console.log(cabooseResult);
