@@ -124,8 +124,14 @@ let nonNumRegex = /\D/g;
 let nonNumResult = nonNumString.match(nonNumRegex).length;
 //console.log(nonNumResult);
 // ----------------------------------------------
-// Restric possible usernames
+// Restrict possible usernames
 let username = "JackOfAllTrades";
 let userCheck = /[A-z][A-z]+\d*/;
 let checkResult = userCheck.test(username);
-console.log(checkResult);
+//console.log(checkResult);
+// ----------------------------------------------
+// Match whitespace
+let whitespaceString = "Whitespace is important in separating words";
+let whitespaceRegex = /\s/g;
+let whitespaceResult = whitespaceString.match(whitespaceRegex);
+console.log(whitespaceResult);
