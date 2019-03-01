@@ -8,3 +8,7 @@ capitalizeString("hello!");
 "use strict";
 export const foo = "bar";
 export const bar = "foo";
+// ----------------------------------------------
+// Use * to import everything from a file
+import * as capitalize from "capitalize_strings";
+"use strict";
