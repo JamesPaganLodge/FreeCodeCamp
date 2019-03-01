@@ -98,4 +98,10 @@ let calResult = calRegex.test(rickyAndCal);
 let caboose = "The last car on the train is the caboose";
 let cabooseRegex = /caboose$/;
 let cabooseResult = cabooseRegex.test(caboose);
-console.log(cabooseResult);
+//console.log(cabooseResult);
+// ----------------------------------------------
+// Match all letters and numbers
+let sample = "The five boxing wizards jump quickly.";
+let alphaRegexV2 = /\w/g;
+let alphaResultV2 = sample.match(alphaRegexV2);
+console.log(alphaResultV2.length);
