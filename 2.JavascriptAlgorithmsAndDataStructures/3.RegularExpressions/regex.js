@@ -62,4 +62,10 @@ let blueResult = blueString.match(blueRegex);
 let nonString = "3 blind mice.";
 let nonRegex = /[^aeiou0-9]/gi;
 let nonResult = nonString.match(nonRegex);
-console.log(nonResult.length);
+//console.log(nonResult.length);
+// ----------------------------------------------
+// Match characters that occur one or more times
+let diffString = "Mississippi";
+let diffRegex = /s+/g;
+let diffResult = diffString.match(diffRegex);
+console.log(diffResult);
