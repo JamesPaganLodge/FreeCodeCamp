@@ -140,4 +140,10 @@ let whitespaceResult = whitespaceString.match(whitespaceRegex);
 let nonWhitespace = "Whitespace is important in separating words";
 let nonWhitespaceRegex = /\S/g;
 let nonWhitespaceResult = nonWhitespace.match(nonWhitespaceRegex);
-console.log(nonWhitespaceResult.length);
+//console.log(nonWhitespaceResult.length);
+// ----------------------------------------------
+// Specify upper and lower number of matches
+let ohStr = "Ohhhhhhh no";
+let ohRegex = /Oh{3,6}\sno/;
+let ohResult = ohRegex.test(ohStr);
+console.log(ohResult);
