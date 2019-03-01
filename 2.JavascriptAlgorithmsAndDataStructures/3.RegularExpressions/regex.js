@@ -104,4 +104,10 @@ let cabooseResult = cabooseRegex.test(caboose);
 let sample = "The five boxing wizards jump quickly.";
 let alphaRegexV2 = /\w/g;
 let alphaResultV2 = sample.match(alphaRegexV2);
-console.log(alphaResultV2.length);
+//console.log(alphaResultV2.length);
+// ----------------------------------------------
+// Match everything but letters and numbers
+let nonAlphaSample = "The five boxing wizards jump quickly.";
+let nonAlphaRegex = /\W/g;
+let nonAlphaResult = nonAlphaSample.match(nonAlphaRegex).length;
+console.log(nonAlphaResult);
