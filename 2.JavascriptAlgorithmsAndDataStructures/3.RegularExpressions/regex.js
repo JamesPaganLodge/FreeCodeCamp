@@ -20,4 +20,10 @@ let petResult = petRegex.test(petString);
 let ignoreString = "freeCodeCamp";
 let ignoreRegex = /freecodecamp/i;
 let ignoreResult = ignoreRegex.test(ignoreString);
-console.log(ignoreResult);
+//console.log(ignoreResult);
+// ----------------------------------------------
+// Extract matches
+let extractString = "Extract the word 'coding' from this string.";
+let extractRegex = /coding/;
+let extractResult = extractString.match(extractRegex);
+console.log(extractResult);
