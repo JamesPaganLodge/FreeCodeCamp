@@ -12,3 +12,7 @@ export const bar = "foo";
 // Use * to import everything from a file
 import * as capitalize from "capitalize_strings";
 "use strict";
+// ----------------------------------------------
+// Create an export fallback with export default
+"use strict";
+export default function subtract(x,y) {return x - y};
