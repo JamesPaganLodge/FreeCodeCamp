@@ -74,4 +74,10 @@ let diffResult = diffString.match(diffRegex);
 let chewieString = "Aaaaaaaaaaaaaaaarrrgh!";
 let chewieRegex = /Aa*/;
 let chewieResult = chewieString.match(chewieRegex);
-console.log(chewieResult);
+//console.log(chewieResult);
+// ----------------------------------------------
+// Find characters with lazy matching
+let htmlString = "<h1>Winter is coming</h1>";
+let htmlRegex = /<.*?>/;
+let htmlResult = htmlString.match(htmlRegex);
+console.log(htmlResult);
