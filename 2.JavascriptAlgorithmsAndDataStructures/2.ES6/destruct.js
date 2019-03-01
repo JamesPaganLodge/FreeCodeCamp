@@ -24,4 +24,14 @@ function getMaxTempOfTmrw(forecast) {
   return maxOfTomorrow;
 }
 
-console.log(getMaxTempOfTmrw(LOCAL_FORECAST));
+//console.log(getMaxTempOfTmrw(LOCAL_FORECAST));
+// ----------------------------------------------
+// Destructuring assignment to assign variables from arrays
+let a = 8, b = 6;
+(() => {
+  'use strict';
+  [b, a] = [a, b];
+})();
+
+console.log(a);
+console.log(b);
