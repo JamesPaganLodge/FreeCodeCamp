@@ -116,4 +116,10 @@ let nonAlphaResult = nonAlphaSample.match(nonAlphaRegex).length;
 let numString = "Your sandwich will be $5.00";
 let numRegex = /\d/g;
 let numResult = numString.match(numRegex).length;
-console.log(numResult);
+//console.log(numResult);
+// ----------------------------------------------
+// Match all non-numbers using shorthand
+let nonNumString = "Your sandwich will be $5.00";
+let nonNumRegex = /\D/g;
+let nonNumResult = nonNumString.match(nonNumRegex).length;
+console.log(nonNumResult);
