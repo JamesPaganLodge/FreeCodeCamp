@@ -26,4 +26,10 @@ let ignoreResult = ignoreRegex.test(ignoreString);
 let extractString = "Extract the word 'coding' from this string.";
 let extractRegex = /coding/;
 let extractResult = extractString.match(extractRegex);
-console.log(extractResult);
+//console.log(extractResult);
+// ----------------------------------------------
+// Find more than the first match
+let twinkleString = "Twinkle, twinkle, little star";
+let twinkleRegex = /twinkle/gi;
+let twinkleResult = twinkleString.match(twinkleRegex);
+console.log(twinkleResult);
