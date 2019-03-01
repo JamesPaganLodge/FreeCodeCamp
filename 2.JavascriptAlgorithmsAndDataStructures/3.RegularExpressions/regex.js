@@ -68,4 +68,10 @@ let nonResult = nonString.match(nonRegex);
 let diffString = "Mississippi";
 let diffRegex = /s+/g;
 let diffResult = diffString.match(diffRegex);
-console.log(diffResult);
+//console.log(diffResult);
+// ----------------------------------------------
+// Match characters that occur zero or more times
+let chewieString = "Aaaaaaaaaaaaaaaarrrgh!";
+let chewieRegex = /Aa*/;
+let chewieResult = chewieString.match(chewieRegex);
+console.log(chewieResult);
