@@ -56,6 +56,7 @@ function getNine() {
   return x + y;
 }
 
+//let missing = getNine;
 let missing = getNine();
 //console.log(missing);
 // ----------------------------------------------
@@ -66,5 +67,19 @@ function raiseToPower(b, e) {
 
 let base = 2;
 let exp = 3;
+//let power = raiseToPower(exp, base);
 let power = raiseToPower(base, exp);
-console.log(power);
+//console.log(power);
+// ----------------------------------------------
+// Catch off by one errors when using indexing
+function countToFive() {
+  let firstFive = "12345";
+  let len = firstFive.length;
+
+  //for (let i = 1; i <= len; i++) {
+  for (let i = 0; i < len; i++) {
+    console.log(firstFive[i]);
+  }
+}
+
+countToFive();
