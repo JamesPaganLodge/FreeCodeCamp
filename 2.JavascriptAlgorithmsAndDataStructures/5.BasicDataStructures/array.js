@@ -39,4 +39,12 @@ function htmlColorNames(arr) {
   return arr;
 }
 
-console.log(htmlColorNames(["DarkGolendRod", "WhiteSmoke", "LavenderBlush", "PaleTurqoise", "FireBrick"]));
+//console.log(htmlColorNames(["DarkGolendRod", "WhiteSmoke", "LavenderBlush", "PaleTurqoise", "FireBrick"]));
+// ----------------------------------------------
+// Copy array items using slice()
+function forecast(arr) {
+  arr = arr.slice(2,4);
+  return arr;
+}
+
+console.log(forecast(["cold", "rainy", "warm", "sunny", "cool", "thunderstorms"]));
