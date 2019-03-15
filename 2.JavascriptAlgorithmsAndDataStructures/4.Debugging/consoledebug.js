@@ -34,4 +34,17 @@ let arraySum = myArray.reduce((previous, current) => previous + current);
 // ----------------------------------------------
 // Catch mixed usage of single and double quotes
 let innerHtml = "<p>Click here to <a href='#Home'>return home</a></p>";
-console.log(innerHtml);
+//console.log(innerHtml);
+// ----------------------------------------------
+// Catch use of assignment instead of equality operator
+let x = 7;
+let y = 9;
+let result = "to come";
+
+if (x == y) {
+  result = "Equal!";
+} else {
+  result = "Not equal!";
+}
+
+console.log(result);
