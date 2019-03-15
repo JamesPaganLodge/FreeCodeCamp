@@ -55,4 +55,30 @@ delete moreFoods.oranges;
 delete moreFoods.plums;
 delete moreFoods.strawberries;
 
-console.log(moreFoods);
+//console.log(moreFoods);
+// ----------------------------------------------
+// Check if an object has a property
+let users = {
+  Alan: {
+    age: 27,
+    online: true
+  },
+  Jeff: {
+    age: 32,
+    online: true
+  },
+  Sarah: {
+    age: 48,
+    online: true
+  },
+  Ryan: {
+    age: 19,
+    online: true
+  }
+};
+
+function isEveryoneHere(obj) {
+  return obj.hasOwnProperty('Alan') && obj.hasOwnProperty('Jeff') && obj.hasOwnProperty('Sarah') && obj.hasOwnProperty('Ryan');
+}
+
+console.log(isEveryoneHere(users));
