@@ -81,4 +81,37 @@ function isEveryoneHere(obj) {
   return obj.hasOwnProperty('Alan') && obj.hasOwnProperty('Jeff') && obj.hasOwnProperty('Sarah') && obj.hasOwnProperty('Ryan');
 }
 
-console.log(isEveryoneHere(users));
+//console.log(isEveryoneHere(users));
+// ----------------------------------------------
+// Iterate through the keys of an object with a for...in statement
+let ittUsers = {
+  Alan: {
+    age: 27,
+    online: false
+  },
+  Jeff: {
+    age: 32,
+    online: true
+  },
+  Sarah: {
+    age: 48,
+    online: false
+  },
+  Ryan: {
+    age: 19,
+    online: true
+  }
+};
+
+function countOnline(obj) {
+  let usersOnline = 0;
+  
+  for (let user in obj) {
+    if(obj[user].online === true)
+      usersOnline++;
+  }
+
+  return usersOnline;
+}
+
+console.log(countOnline(ittUsers));
