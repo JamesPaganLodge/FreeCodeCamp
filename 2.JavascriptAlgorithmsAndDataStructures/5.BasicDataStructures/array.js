@@ -31,4 +31,12 @@ function sumOfTen(arr) {
   return arr.reduce((a, b) => a + b);
 }
 
-console.log(sumOfTen([2,5,1,5,2,1]));
+//console.log(sumOfTen([2,5,1,5,2,1]));
+// ----------------------------------------------
+// Add items using splice()
+function htmlColorNames(arr) {
+  arr.splice(0,2,"DarkSalmon", "BlanchedAlmond");
+  return arr;
+}
+
+console.log(htmlColorNames(["DarkGolendRod", "WhiteSmoke", "LavenderBlush", "PaleTurqoise", "FireBrick"]));
