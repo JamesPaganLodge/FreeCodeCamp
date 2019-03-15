@@ -47,4 +47,14 @@ if (x == y) {
   result = "Not equal!";
 }
 
-console.log(result);
+//console.log(result);
+// ----------------------------------------------
+// Catch missing open and closing parenthesis after function call
+function getNine() {
+  let x = 6;
+  let y = 3;
+  return x + y;
+}
+
+let missing = getNine();
+console.log(missing);
