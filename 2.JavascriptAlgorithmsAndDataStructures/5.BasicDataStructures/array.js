@@ -93,4 +93,28 @@ function filteredArray(arr, elem) {
   return newArr;
 }
 
-console.log(filteredArray([[3,2,3],[1,6,3],[3,13,26],[19,3,9]], 3));
+//console.log(filteredArray([[3,2,3],[1,6,3],[3,13,26],[19,3,9]], 3));
+// ----------------------------------------------
+// Create complex multi-dimensional arrays
+let myNestedArray = [
+  ["unshift", false, 1, 2, 3, "complex", "nested"],
+  ["loop", "shift", 6, 7, 1000, "method"],
+  ["concat", false, true, "spread", "array"],
+  ["mutate", 1327.98, "splice", "slice", "push"],
+  ["iterate", 1.3849, 7, "8.4876", "arbitart", "depth"],
+  [
+    ["deep"]
+  ],
+  [
+    [
+      ["deeper"]
+    ]
+  ],
+  [
+    [
+      [
+        ["deepest"]
+      ]
+    ]
+  ]
+];
