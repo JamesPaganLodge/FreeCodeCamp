@@ -71,4 +71,14 @@ function spreadOut() {
   return sentence;
 }
 
-console.log(spreadOut());
+//console.log(spreadOut());
+// ----------------------------------------------
+// Check for the presence of an element with indexOf()
+function quickCheck(arr, elem) {
+  if (arr.indexOf(elem) == -1)
+    return false;
+  else
+    return true;
+}
+
+console.log(quickCheck(["squash", "onions", "shallots"], "mushrooms"));
