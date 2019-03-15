@@ -47,4 +47,18 @@ function forecast(arr) {
   return arr;
 }
 
-console.log(forecast(["cold", "rainy", "warm", "sunny", "cool", "thunderstorms"]));
+//console.log(forecast(["cold", "rainy", "warm", "sunny", "cool", "thunderstorms"]));
+// ----------------------------------------------
+// Copy an array with the spread operator
+function copyMachine(arr, num) {
+  let newArr = [];
+
+  while (num >= 1) {
+    newArr.push([...arr]);
+    num--;
+  }
+
+  return newArr;
+}
+
+console.log(copyMachine([true, false, true], 2));
