@@ -34,7 +34,7 @@ This includes the following sections
   * [x] Profile Lookup
 * [x] ES6
 * [x] Regular Expressions
-* [ ] Debugging
+* [x] Debugging
 * [ ] Basic Data Structures
 * [ ] Basic Algorithm Scripting
 * [ ] Object Oriented Programming
