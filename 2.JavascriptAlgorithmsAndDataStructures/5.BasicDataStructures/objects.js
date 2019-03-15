@@ -114,4 +114,11 @@ function countOnline(obj) {
   return usersOnline;
 }
 
-console.log(countOnline(ittUsers));
+//console.log(countOnline(ittUsers));
+// ----------------------------------------------
+// Generate an array of all object keys with object.keys()
+function getArrayOfUsers(obj) {
+  return Object.keys(obj);
+}
+
+console.log(getArrayOfUsers(ittUsers));
